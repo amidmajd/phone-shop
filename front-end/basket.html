@@ -1,194 +1,133 @@
-<html lang="fa">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>سبد خرید</title>
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap_basket.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="css/main.css">
     <script src="js/all.js"></script>
 </head>
 
 <body>
-    <!--Section: Block Content-->
-    <section class="container my-5">
-
-        <!--Grid row-->
-        <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-10 mx-auto">
-
-                <!-- Card -->
-                <div class="card wish-list mb-3">
-                    <div class="card-body">
-
-                        <h5 class="mb-4">سبد خرید شما (<span>2</span>محصول)</h5>
-
-                        <div class="row mb-4">
-                            <div class="col-md-5 col-lg-3 col-xl-3">
-                                <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
-                                    <a href="#!">
-                                        <div class="mask waves-effect waves-light">
-                                            <img class="img-fluid w-100"
-                                                src="images/39009-Galaxy_Note20_01_610_710.jpg">
-                                            <div class="mask rgba-black-slight waves-effect waves-light"></div>
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <div class="row w-100">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <h3 class="display-5 mb-2 text-center">سبد خرید</h3>
+                    <p class="mb-5 text-center">
+                        محصول در سبد خرید شما <i class="text-info font-weight-bold">3</i></p>
+                    <table id="shoppingCart" class="table table-condensed table-responsive">
+                        <thead>
+                            <tr>
+                                <th style="width:60%">محصول</th>
+                                <th style="width:15%">(تومان)قیمت</th>
+                                <th style="width:15%">تعداد</th>
+                                <th style="width:16%"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-th="Product">
+                                    <div class="row">
+                                        <div class="col-md-2 text-left">
+                                            <img src="images/39067-Galaxy_S20_FE_01_610_710.jpg" alt="s20"
+                                                class="img-fluid d-none d-md-block rounded mb-2 shadow ">
                                         </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-7 col-lg-9 col-xl-9">
-                                <div>
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h5>Galaxy_Note20</h5>
-                                        </div>
-                                        <div>
-                                            <div class="def-number-input number-input safari_only mb-0 ml-1 w-100">
-                                                <button
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                                                    class="minus"><i class="fas fa-minus"></i></button>
-                                                <input class="quantity" min="1" name="quantity" value="1" type="number">
-                                                <button
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                                    class="plus"><i class="fas fa-plus"></i></button>
-                                            </div>
-                                            <small id="passwordHelpBlock" class="form-text text-muted text-center">
-                                            </small>
+                                        <div class="col-md-9 text-left mt-sm-2">
+                                            <h4>Galaxy_S20</h4>
+                                            <p class="font-weight-light">سامسونگ</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <a href="#!" type="button"
-                                                class="card-link-secondary small text-uppercase mr-3"> حذف از سبد خرید
-                                                <i class="fas fa-trash-alt mr-1"></i>
-                                            </a>
-                                        </div>
-                                        <p class="mb-0"><span><strong>3500000</strong></span></p>
+                                </td>
+                                <td data-th="Price">6000000</td>
+                                <td data-th="Quantity">
+                                    <input type="number" class="form-control form-control-lg text-center" value="1"
+                                        min="1">
+                                </td>
+                                <td class="actions" data-th="">
+                                    <div class="text-right">
+                                        <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="mb-4">
-                        <div class="row mb-4">
-                            <div class="col-md-5 col-lg-3 col-xl-3">
-                                <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
-                                    <a href="#!">
-                                        <div class="mask waves-effect waves-light">
-                                            <img class="img-fluid w-100" src="images/39030-Galaxy_M51_08_610_710.jpg">
-                                            <div class="mask rgba-black-slight waves-effect waves-light"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-th="Product">
+                                    <div class="row">
+                                        <div class="col-md-2 text-left">
+                                            <img src="images/39030-Galaxy_M51_08_610_710.jpg" alt="m51"
+                                                class="img-fluid d-none d-md-block rounded mb-2 shadow ">
                                         </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-7 col-lg-9 col-xl-9">
-                                <div>
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h5>Galaxy_M51</h5>
-                                        </div>
-                                        <div>
-                                            <div class="def-number-input number-input safari_only mb-0 ml-1 w-100">
-                                                <button
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                                                    class="minus"><i class="fas fa-minus"></i></button>
-                                                <input class="quantity" min="1" name="quantity" value="1" type="number">
-                                                <button
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                                    class="plus"><i class="fas fa-plus"></i></button>
-                                            </div>
+                                        <div class="col-md-9 text-left mt-sm-2">
+                                            <h4>Galaxy_M51</h4>
+                                            <p class="font-weight-light">سامسونگ</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <a href="#!" type="button"
-                                                class="card-link-secondary small text-uppercase mr-3"> حذف از سبد خرید
-                                                <i class="fas fa-trash-alt mr-1"></i>
-                                            </a>
-                                        </div>
-                                        <p class="mb-0"><span><strong>3500000</strong></span></p>
+                                </td>
+                                <td data-th="Price">5000000</td>
+                                <td data-th="Quantity">
+                                    <input type="number" class="form-control form-control-lg text-center" value="1"
+                                        min="1">
+                                </td>
+                                <td class="actions" data-th="">
+                                    <div class="text-right">
+                                        <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td data-th="Product">
+                                    <div class="row">
+                                        <div class="col-md-2 text-left">
+                                            <img src="images/39009-Galaxy_Note20_01_610_710.jpg" alt="note20"
+                                                class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                        </div>
+                                        <div class="col-md-9 text-left mt-sm-2">
+                                            <h4>Galaxy_Note20</h4>
+                                            <p class="font-weight-light">سامسونگ</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-th="Price">15000000</td>
+                                <td data-th="Quantity">
+                                    <input type="number" class="form-control form-control-lg text-center" value="1"
+                                        min="1">
+                                </td>
+                                <td class="actions" data-th="">
+                                    <div class="text-right">
+                                        <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <!-- Card -->
-
             </div>
-            <!--Grid column-->
-
-
-
-        </div>
-
-        <div class="row">
-            <!--Grid column-->
-            <div class="col-8 mx-auto">
-
-                <!-- Card -->
-                <div class="card mb-3">
-                    <div class="card-body">
-
-                        <h5 class="mb-3">فاکتور خرید</h5>
-
-                        <ul class="list-group list-group-flush">
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
-                                موجودی حساب شما
-                                <span>500000</span>
-                            </li>
-                            <hr>
-                            <li
-                                class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
-                                <div>
-                                    <strong>مبلغ پرداختی</strong>
-                                    <strong>
-                                        <p class="mb-0">(با احتساب کد تخفیف و موجودی)</p>
-                                    </strong>
-                                </div>
-                                <span><strong>6000000</strong></span>
-                            </li>
-                        </ul>
-
-                        <button type="button" class="btn btn-primary btn-block waves-effect waves-light">
-                            تایید و پرداخت
-                        </button>
-
+            <div class="row mt-4 d-flex align-items-center justify-content-center">
+                <div class="col-10 col-sm-6  mx-auto">
+                    <div class="d-flex flex-row-reverse">
+                        <h4 class="mt-2 ml-2">:جمع مبالغ خرید</h4>
+                        <h1>26000000</h1>
                     </div>
+                    <a href="#" class="btn btn-primary mb-4 btn-lg px-5">تایید و پرداخت</a>
                 </div>
-                <!-- Card -->
-
-                <!-- Card -->
-                <div class="card mb-3">
-                    <div class="card-body">
-
-                        <a class="dark-grey-text d-flex justify-content-between" data-toggle="collapse"
-                            href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
-                            ورود کد تخفیف
-                            <span><i class="fas fa-chevron-down pt-1"></i></span>
-                        </a>
-
-                        <div class="collapse" id="collapseExample1">
-                            <div class="mt-3">
-                                <div class="md-form md-outline mb-0">
-                                    <input type="text" id="discount-code1" class="form-control font-weight-light"
-                                        placeholder="کد تخفیف خود را وارد نمایید">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card -->
-
             </div>
-            <!--Grid column-->
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
+                    <a href="shop.html">
+                        <i class="fas fa-arrow-left mr-2"></i>بازگشت به فروشگاه</a>
+                </div>
+            </div>
         </div>
-
     </section>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
