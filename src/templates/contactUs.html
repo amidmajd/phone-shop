@@ -5,19 +5,18 @@
     <title>ارتباط با ما</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap-grid.min.css' %}">
     <!-- main css -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" sizes="32x32" href="favicon.ico">
-    <script src="js/all.js"></script>
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <script src="{% static 'assets/js/all.js' %}"></script>
 </head>
 <body>
     <div class="container contactus">
         <div class="row">
             <div class="col-md-3">
                 <div class="contact-info">
-                    <img src="images/email-20-512.png" class="img-fluid" alt="">
+                    <img src="{% static 'assets/images/email-20-512.png' %}" class="img-fluid" alt="">
                     <h2>ارتباط با ما</h2>
                     <h4>لطفا پیشنهادات و انتقادات خود را با ما درمیان بگذارید.</h4>
                 </div>
@@ -62,11 +61,11 @@
     </div>
 
 
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="{% static 'assets/js/jquery-3.3.1.min.js' %}"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
     <!-- script js -->
-    <script src="js/script.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{% static 'assets/js/script.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
 </body>
 </html>

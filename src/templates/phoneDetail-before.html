@@ -5,12 +5,11 @@
     <title>Galaxy_Note20</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap-grid.min.css' %}">
     <!-- main css -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" sizes="32x32" href="favicon.ico">
-    <script src="js/all.js"></script>
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <script src="{% static 'assets/js/all.js' %}"></script>
 </head>
 
 <body>
@@ -46,10 +45,10 @@
         <!-- endmodal -->
         <div class="navbar justify-content-start d-inline-block">
             <button class="btn py-0 m-0 px-3 sign-btn">
-                <a class="nav-item nav-link d-inline-block text-white" href="#">ثبت نام</a>
+                <a class="nav-item nav-link d-inline-block text-white" href="{% url 'users:register' %}">ثبت نام</a>
             </button>
             <button class="btn py-0 m-0 px-3 login-btn">
-                <a class="nav-item nav-link d-inline-block" href="#">ورود</a>
+                <a class="nav-item nav-link d-inline-block" href="{% url 'users:login' %}">ورود</a>
             </button>
         </div>
         <!-- socials -->
@@ -78,9 +77,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="mycollapse">
                     <div class="navbar-nav mx-auto">
-                        <a class="nav-item nav-link " href="#">خانه</a>
-                        <a class="nav-item nav-link " href="#">فروشگاه</a>
-                        <a class="nav-item nav-link" href="#">ارتباط با ما</a>
+                        <a class="nav-item nav-link " href="{% url 'web:home' %}">خانه</a>
+                        <a class="nav-item nav-link " href="{% url 'web:shop' %}">فروشگاه</a>
+                        <a class="nav-item nav-link" href="{% url 'web:contactus' %}">ارتباط با ما</a>
                     </div>
                     <form class="form-inline my-2 my-lg-0 d-md-inline-block d-none">
                         <input class="form-control mr-sm-2 mt-3" type="text" placeholder="جست‌وجو">
@@ -98,7 +97,7 @@
         <div class="row py-5">
             <div class=" col-10 col-md-6 col-lg-5 mx-auto">
                 <div class="card">
-                    <img src="images/39009-Galaxy_Note20_01_610_710.jpg" alt="note20" class="card-img-top img-fluid">
+                    <img src="{% static 'assets/images/39009-Galaxy_Note20_01_610_710.jpg' %}" alt="note20" class="card-img-top img-fluid">
                     <div class="card-body ">
                         <div class="d-flex justify-content-between py-2 flex-wrap">
                             <h5 class="card-title font-weight-bold">Galaxy_Note20 </h5>
@@ -112,7 +111,7 @@
                         <div class="row p-0 m-0">
                             <!-- single question first -->
                             <div class="col-12 card-red p-md-3 p-2">
-                                <a href="#" class="card-icon d-flex justify-content-center">
+                                <a href="{% url 'basket:addPhone' %}" class="card-icon d-flex justify-content-center">
                                     <i class="fas fa-cart-arrow-down fa-fw"></i>
                                     <h6 class="buy-title font-weight-bold">
                                         افزودن به سبد خرید
@@ -125,16 +124,7 @@
             </div>
         </div>
         <!-- end card product -->
-        <!-- fixed -->
-        <div class="fixed-bottom py-1 bg-light d-md-none">
-            <div class="row">
-                <button class="btn btn-danger mx-auto">
-                    افزودن به سبد خرید
-                </button>
-            </div>
 
-        </div>
-        <!-- end fixed -->
         <!-- tabs -->
         <div class="row my-5">
             <div class="col-12 col-md-10 mx-auto">
@@ -321,12 +311,12 @@
     <!-- End Footer-->
 
 
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="{% static 'assets/js/jquery-3.3.1.min.js' %}"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
     <!-- script js -->
-    <script src="js/script.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{% static 'assets/js/script.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
 </body>
 
 </html>

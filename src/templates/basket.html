@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>سبد خرید</title>
-    <link rel="stylesheet" href="css/bootstrap_basket.min.css">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap_basket.min.css' %}">
     <!-- main css -->
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/all.js"></script>
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <script src="{% static 'assets/js/all.js' %}"></script>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                                 <td data-th="Product">
                                     <div class="row">
                                         <div class="col-md-2 text-left">
-                                            <img src="images/39067-Galaxy_S20_FE_01_610_710.jpg" alt="s20"
+                                            <img src="{% static 'assets/images/39067-Galaxy_S20_FE_01_610_710.jpg' %}" alt="s20"
                                                 class="img-fluid d-none d-md-block rounded mb-2 shadow ">
                                         </div>
                                         <div class="col-md-9 text-left mt-sm-2">
@@ -44,7 +44,7 @@
                                 <td data-th="Price">6000000</td>
                                 <td data-th="Quantity">
                                     <input type="number" class="form-control form-control-lg text-center" value="1"
-                                        min="1">
+                                        min="1" disabled>
                                 </td>
                                 <td class="actions" data-th="">
                                     <div class="text-right">
@@ -58,7 +58,7 @@
                                 <td data-th="Product">
                                     <div class="row">
                                         <div class="col-md-2 text-left">
-                                            <img src="images/39030-Galaxy_M51_08_610_710.jpg" alt="m51"
+                                            <img src="{% static 'assets/images/39030-Galaxy_M51_08_610_710.jpg' %}" alt="m51"
                                                 class="img-fluid d-none d-md-block rounded mb-2 shadow ">
                                         </div>
                                         <div class="col-md-9 text-left mt-sm-2">
@@ -70,7 +70,7 @@
                                 <td data-th="Price">5000000</td>
                                 <td data-th="Quantity">
                                     <input type="number" class="form-control form-control-lg text-center" value="1"
-                                        min="1">
+                                        min="1" disabled>
                                 </td>
                                 <td class="actions" data-th="">
                                     <div class="text-right">
@@ -84,7 +84,7 @@
                                 <td data-th="Product">
                                     <div class="row">
                                         <div class="col-md-2 text-left">
-                                            <img src="images/39009-Galaxy_Note20_01_610_710.jpg" alt="note20"
+                                            <img src="{% static 'assets/images/39009-Galaxy_Note20_01_610_710.jpg' %}" alt="note20"
                                                 class="img-fluid d-none d-md-block rounded mb-2 shadow ">
                                         </div>
                                         <div class="col-md-9 text-left mt-sm-2">
@@ -96,7 +96,7 @@
                                 <td data-th="Price">15000000</td>
                                 <td data-th="Quantity">
                                     <input type="number" class="form-control form-control-lg text-center" value="1"
-                                        min="1">
+                                        min="1" disabled>
                                 </td>
                                 <td class="actions" data-th="">
                                     <div class="text-right">
@@ -121,18 +121,18 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
-                    <a href="shop.html">
+                    <a href="{% url 'web:shop' %}">
                         <i class="fas fa-arrow-left mr-2"></i>بازگشت به فروشگاه</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="{% static 'assets/js/jquery-3.3.1.min.js' %}"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
     <!-- script js -->
-    <script src="js/script.js"></script>
+    <script src="{% static 'assets/js/script.js' %}"></script>
 </body>
 
 </html>
