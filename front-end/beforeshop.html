@@ -1,0 +1,347 @@
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <title>فروشگاه</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" sizes="32x32" href="favicon.ico">
+    <script src="js/all.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid my-1">
+        <button class="btn d-inline-block d-md-none " data-toggle="modal" data-target="#exampleModalLong">
+            <span>
+                <i class="fas fa-search"></i>
+            </span>
+        </button>
+        <!-- modal -->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content border-0 mt-5" style="background: transparent;">
+                    <div class="modal-body mx-auto">
+                        <form action="" class="form-group ">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend ">
+                                    <button class="btn" type="submit" id="" style="background: #ffffff;">
+                                        <span>
+                                            <i class="fas fa-search"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                                <input type="search" class="form-control p-4" placeholder=""
+                                    aria-label="Example text with button addon" aria-describedby="">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- endmodal -->
+        <div class="navbar justify-content-start d-inline-block">
+            <button class="btn py-0 m-0 px-3 sign-btn">
+                <a class="nav-item nav-link d-inline-block text-white" href="#">ثبت نام</a>
+            </button>
+            <button class="btn py-0 m-0 px-3 login-btn">
+                <a class="nav-item nav-link d-inline-block" href="#">ورود</a>
+            </button>
+        </div>
+        <!-- socials -->
+        <div class="nav-icons float-left d-md-inline-block d-none ">
+            <a href="#" class="nav-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="nav-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="nav-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <!-- socialsend -->
+    </div>
+    <!-- menu =============================== -->
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-sm" style="background-color: var(--mainred);">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mycollapse"
+                    aria-controls="mycollapse" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="mycollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-item nav-link " href="#">خانه</a>
+                        <a class="nav-item nav-link active" href="#">فروشگاه</a>
+                        <a class="nav-item nav-link" href="#">ارتباط با ما</a>
+                    </div>
+                    <form class="form-inline my-2 my-lg-0 d-md-inline-block d-none">
+                        <input class="form-control mr-sm-2 mt-3" type="text" placeholder="جست‌وجو">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">جست‌وجو</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- end menu ================================= -->
+    <div class="container mt-2">
+        <!-- filter -->
+        <div class="row">
+            <div class="container ">
+                <section class="jumbotron col-12 col-md-8 " style="padding:1em 1em;">
+                    <button class="btn btn-info " type="button" data-toggle="collapse" data-target="#selectcollapse"
+                        aria-controls="mycollapse" aria-expanded="false" aria-label="Toggle Navigation">
+                        فیلتر
+                    </button>
+
+                    <div class="collapse mt-2 " id="selectcollapse">
+                        <form action="" class="form-group">
+                            <div class="card mt-2">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="collapse"
+                                    data-target="#brandcollapse" aria-haspopup="true"
+                                    aria-expanded="false">برند</button>
+                                <div class="collapse mt-2 mr-3 px-3" id="brandcollapse">
+
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">سامسونگ</label>
+                                    </div>
+
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                        <label class="form-check-label" for="exampleCheck2">اپل</label>
+                                    </div>
+
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                        <label class="form-check-label" for="exampleCheck3">شیائومی</label>
+                                    </div>
+
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                        <label class="form-check-label" for="exampleCheck4">نوکیا</label>
+                                    </div>
+
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                        <label class="form-check-label" for="exampleCheck5">هوآوی</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-2">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="collapse"
+                                    data-target="#pricecollapse" aria-haspopup="true"
+                                    aria-expanded="false">قیمت</button>
+                                <div class="collapse mt-2 " id="pricecollapse">
+                                    <!-- input group -->
+                                    <div class="input-group my-2">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">از</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">تومان</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- inpout group -->
+                                    <div class="input-group my-2">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">تا</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">تومان</span>
+                                        </div>
+                                    </div>
+                                    <!-- end input groups -->
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-info mt-2">اعمال فیلتر</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- end filter -->
+        <!-- ====================== -->
+        <!-- product cards -->
+        <div class="card-group">
+            <div class="row">
+                <div class="col-md-6 col-10 col-lg-4 mx-auto my-2">
+                    <section class="card my-2 phone-card">
+                        <img src="images/39009-Galaxy_Note20_01_610_710.jpg" alt="note20"
+                            class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Galaxy_Note20 </h2>
+                            <h5 class="card-subtitle">5000000 تومان</h5>
+                        </div>
+                        <div class="card-footer p-0">
+                            <!-- Section -->
+                            <div class="row p-0 m-0">
+                                <!-- single part first -->
+                                <div class="col-12 col-md-7 card-red p-2">
+                                    <a href="#" class="card-icon d-flex justify-content-center">
+                                        <i class="fas fa-cart-arrow-down fa-fw"></i>
+                                        <h6 class="buy-title font-weight-bold">
+                                            افزودن به سبد
+                                        </h6>
+                                    </a>
+                                </div>
+                                <!-- single part socond -->
+                                <div class="col-12 col-md-5 card-white p-md-3 p-2">
+                                    <a href="landing.html" class="mr-1 d-flex justify-content-center">
+                                        <h6 class="buy-title2">
+                                            جزییات
+                                        </h6>
+                                    </a>
+                                </div>
+                                <!--End  Section -->
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-6 col-10 col-lg-4 mx-auto my-2">
+                    <section class="card my-2">
+                        <img src="images/39030-Galaxy_M51_08_610_710.jpg" alt="m51" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Galaxy_M51</h2>
+                            <h5 class="card-subtitle">6000000 تومان</h5>
+                        </div>
+                        <div class="card-footer p-0">
+                            <!-- Section -->
+                            <div class="row p-0 m-0">
+                                <!-- single part first -->
+                                <div class="col-12 col-md-7 card-red p-2">
+                                    <a href="#" class="card-icon d-flex justify-content-center">
+                                        <i class="fas fa-cart-arrow-down fa-fw"></i>
+                                        <h6 class="buy-title font-weight-bold">
+                                            افزودن به سبد
+                                        </h6>
+                                    </a>
+                                </div>
+                                <!-- single part socond -->
+                                <div class="col-12 col-md-5 card-white p-md-3 p-2">
+                                    <a href="#" class="mr-1 d-flex justify-content-center">
+                                        <h6 class="buy-title2">
+                                            جزییات
+                                        </h6>
+                                    </a>
+                                </div>
+                                <!--End Section -->
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="col-md-6 col-10 col-lg-4 mx-auto my-2">
+                    <section class="card my-2">
+                        <img src="images/39009-Galaxy_Note20_01_610_710.jpg" alt="note20"
+                            class=" card-img-top img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">Galaxy_Note20 </h2>
+                            <h5 class="card-subtitle">5000000 تومان</h5>
+
+                        </div>
+                        <div class="card-footer p-0">
+                            <!-- Section -->
+                            <div class="row p-0 m-0">
+                                <!-- single part first -->
+                                <div class="col-12 col-md-7 card-red p-2">
+                                    <a href="#" class="card-icon d-flex justify-content-center">
+                                        <i class="fas fa-cart-arrow-down fa-fw"></i>
+                                        <h6 class="buy-title font-weight-bold">
+                                            افزودن به سبد
+                                        </h6>
+                                    </a>
+                                </div>
+                                <!-- single part socond -->
+                                <div class="col-12 col-md-5 card-white p-md-3 p-2">
+                                    <a href="#" class="mr-1 d-flex justify-content-center">
+                                        <h6 class="buy-title2">
+                                            جزییات
+                                        </h6>
+                                    </a>
+                                </div>
+                                <!--End  Section -->
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="col-md-6 col-10 col-lg-4 mx-auto">
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- end product cards -->
+        <div class="row">
+            <div class="btn-group btn-group-md mx-auto">
+                <button class="btn btn-outline-primary active">1</button>
+                <button class="btn btn-outline-primary ">2</button>
+                <button class="btn btn-outline-primary">3</button>
+                <button class="btn btn-outline-primary">4</button>
+                <button class="btn btn-outline-primary">>></button>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer pt-3 pb-5 mb-0">
+        <div class="container">
+            <div class="connect ml-3">
+                <p>
+                    <span class="footer-icon"><i class="fas fa-map-marker-alt"></i></span>
+                    <span>مازندران , ساری</span>
+                </p>
+                <p>
+                    <span class="footer-icon"><i class="fas fa-mobile-alt"></i></span>
+                    <span>09331234567</span>
+                </p>
+                <p>
+                    <span class="footer-icon"><i class="fas fa-phone"></i></span>
+                    <span>01133313456</span>
+                </p>
+            </div>
+            <hr class="bg-white">
+            <div class="footer-icons d-flex justify-content-around">
+                <a href="#" class="footer-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="footer-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="footer-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="footer-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="footer-icon">
+                    <i class="fab fa-google-plus"></i>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer-->
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+    <script src="demo/custom.js"></script>
+</body>
+
+</html>

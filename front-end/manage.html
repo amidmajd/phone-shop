@@ -1,0 +1,72 @@
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <title>پنل مدیریتی</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" media="screen">
+    <!-- main css -->
+    <link rel="stylesheet" href="demo/custom.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" sizes="32x32" href="favicon.ico">
+    <script src="js/all.js"></script>
+</head>
+
+<body class="rtl">
+    <h2 class="m-4">پنل مدیریتی</h2>
+    <hr class="mb-3">
+
+    <div class="container">
+        <form action="" class="form-group" method="">
+
+            <label>نام گوشی</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">به طور مثال:Galaxy_Note20</span>
+                </div>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <label>قیمت</label>
+            <div class="input-group mb-3">
+                <input type="number" class="form-control" aria-label="Amount" required>
+                <div class="input-group-append">
+                    <span class="input-group-text">تومان</span>
+                </div>
+            </div>
+
+            <label>مشخصات</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">مشخصات گوشی</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea" required></textarea>
+            </div>
+
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                </div>
+                <div>
+                    <input type="image" required>
+                    <label> عکس گوشی مورد نظر</label>
+                </div>
+            </div>
+
+            <button class="btn btn-success">
+                ارسال<span><i class="fas fa-location-arrow"></i></span>
+            </button>
+        </form>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+    <script src="demo/custom.js"></script>
+</body>
+
+</html>

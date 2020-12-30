@@ -1,0 +1,16 @@
+html{
+    direction: rtl;
+}
+body{
+    direction: rtl;
+} 
+.card-group .list-group:first-child{
+    background-color: crimson;
+    color: #ffffff;
+    padding: 3px;
+
+}
+
+#buy{
+    color: #ffffff;
+}
