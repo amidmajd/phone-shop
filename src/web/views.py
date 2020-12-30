@@ -2,8 +2,12 @@ from django.shortcuts import render
 
 
 def home(request):
-    context = {
+    return render(request, 'home.html')
 
 
-    }
-    return render(request, 'home.html', context=context)
+def shop(request):
+    return render(request, 'shop.html')
+
+
+def contactus(request):
+    return render(request, 'contactus.html')

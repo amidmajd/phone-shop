@@ -22,6 +22,6 @@ app_name = 'web'
 
 urlpatterns = [
     path('', views.home, name="home"),
-    # path('shop', views.shop, name="shop"),
-    # path('contactus', views.contactus, name="contactus"),
+    path('shop/', views.shop, name="shop"),
+    path('contactus/', views.contactus, name="contactus"),
 ]

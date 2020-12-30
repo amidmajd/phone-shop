@@ -21,5 +21,5 @@ from . import views
 app_name = 'phones'
 
 urlpatterns = [
-    # path('phonedetail', views.phonedetail, name="phonedetail"),   # TODO: use phone id here
+    path('phonedetail/', views.phonedetail, name="phonedetail"),   # TODO: use phone id here
 ]

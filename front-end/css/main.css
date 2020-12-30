@@ -12,11 +12,11 @@
 }
 
 @font-face{
-  font-family : 'byekan';
-  src : url('BYekan/BYekan+.ttf') ;
+  font-family : 'vazir';
+  src : url('fonts/Vazir.ttf') ;
 }
 body{
-  font-family: byekan;
+  font-family: vazir;
   color: var(--mainBlack);
   background: var(--mainWhite);
 }

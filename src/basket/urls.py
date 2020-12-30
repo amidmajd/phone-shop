@@ -21,7 +21,7 @@ from . import views
 app_name = 'basket'
 
 urlpatterns = [
-    # path('', views.basket, name="home"),
-    # path('addphone/', views.addphone, name="addphone"),
-    # path('removephone/', views.removephone, name="removephone"),
+    path('', views.home, name="home"),
+    path('addphone/', views.addphone, name="addphone"),
+    path('removephone/', views.removephone, name="removephone"),
 ]
