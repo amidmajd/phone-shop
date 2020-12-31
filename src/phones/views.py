@@ -1,7 +1,8 @@
 from django.shortcuts import render
+from django.shortcuts import get_object_or_404, Http404
+from phones.models import Phone
 
-# Create your views here.
 
-
-def phonedetail(request):
-    return render(request, 'phonedetail.html')
+def phonedetail(request, id):
+    instance = get_object_or_404(Phone, id=id)
+    return render(request, 'phonedetail.html', {"instance": instance})
