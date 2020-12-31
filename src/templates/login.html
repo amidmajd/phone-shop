@@ -18,12 +18,22 @@
             <div id="contentdiv" class="contcustom">
                 <span class="fa fa-spinner bigicon"></span>
                 <h2>ورود</h2>
-                <div>
-                    <input id="username" type="text" placeholder="نام کاربری">
-                    <input id="password" type="password" placeholder="رمز عبور">
-                    <button id="button1" class="btn btn-grad"><span
+                {{ form.non_field_errors }}
+                {% if error %}
+                <span class='text-danger'>
+                  {{error}}
+                </span>
+                {% endif %}
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form.username }}
+                    {{ form.username.errors }}
+                    {{ form.password }}
+                    {{ form.password.errors }}
+                    <button type="submit" id="button1" class="btn btn-grad"><span
                             class="fa fa-check med"></span></button>
-                </div>
+                </form>
+                <a href="{% url 'users:register' %}" class="text-info">تاکنون ثبت نام نکرده‌اید؟</a>
             </div>
         </div>
     </div>

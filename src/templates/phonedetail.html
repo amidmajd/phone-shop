@@ -44,19 +44,30 @@
             </div>
         </div>
         <!-- endmodal -->
-        <button class=" btn btn-default border-0 dropdown-toggle mx-2" data-toggle="dropdown"
-            style="background: transparent;">
-            <i class="fas fa-user fa-lg"></i>
-        </button>
-        <div class="dropdown-menu">
-            <a href="{% url 'basket:home' %}" class="dropdown-item"> سبد خرید</a>
-            <a href="#" class="dropdown-item">پروفایل</a>
-            <a href="{% url 'users:logout' %}" class="dropdown-item">خروج</a>
-        </div>
-        <!--  -->
-        <a href="{% url 'basket:home' %}" class="nav-icon mx-2" title="سبد خرید">
-            <i class="fa fa-shopping-cart"></i>
-        </a>
+        {% if user.is_authenticated %}
+            <button class=" btn btn-default border-0 dropdown-toggle mx-2" data-toggle="dropdown"
+                style="background: transparent;">
+                <i class="fas fa-user fa-lg"></i>
+            </button>
+            <div class="dropdown-menu">
+                <a href="{% url 'basket:home' %}" class="dropdown-item"> سبد خرید</a>
+                <a href="#" class="dropdown-item">پروفایل</a>
+                <a href="{% url 'users:logout' %}" class="dropdown-item">خروج</a>
+            </div>
+            <!--  -->
+            <a href="{% url 'basket:home' %}" class="nav-icon mx-2" title="سبد خرید">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+        {% else %}
+            <div class="navbar justify-content-start d-inline-block">
+                <button class="btn py-0 m-0 px-3 sign-btn">
+                    <a class="nav-item nav-link d-inline-block text-white" href="{% url 'users:register' %}">ثبت نام</a>
+                </button>
+                <button class="btn py-0 m-0 px-3 login-btn">
+                    <a class="nav-item nav-link d-inline-block" href="{% url 'users:login' %}">ورود</a>
+                </button>
+            </div>
+        {% endif %}
         <!-- socials -->
         <div class="nav-icons d-md-inline-block d-none float-left">
             <a href="#" class="nav-icon">
