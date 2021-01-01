@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Galaxy_Note20</title>
+    <title>{{instance.brand}} {{instance.name}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
@@ -114,12 +114,12 @@
         <div class="row py-5">
             <div class=" col-10 col-md-6 col-lg-5 mx-auto">
                 <div class="card">
-                    <img src="{% static 'assets/images/39009-Galaxy_Note20_01_610_710.jpg' %}" alt="note20" class="card-img-top img-fluid">
+                    <img src={{instance.image.url}} alt="note20" class="card-img-top img-fluid">
                     <div class="card-body ">
                         <div class="d-flex justify-content-between py-2 flex-wrap">
-                            <h5 class="card-title font-weight-bold">Galaxy_Note20 </h5>
+                            <h5 class="card-title font-weight-bold">{{instance.brand}}&nbsp;&nbsp;{{instance.name}}</h5>
                             <h6 class="card-subtitle align-self-center py-2 px-3 phone-price">
-                                <span class="value">5000000تومان</span>
+                                <span class="value">{{instance.price}} تومان</span>
                             </h6>
                         </div>
                     </div>
@@ -158,126 +158,179 @@
                 <div class="tab-content p-2 bg-light" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <ul class="text-justify">
-                            <li>بدنه
+                            <li>
                                 <ul>
-                                    <li>ابعاد:
-                                        9.5 mm thickness</li>
-                                    <li>وزن:
-                                        213 گرم (7.51 oz)</li>
-                                    <li>ساختار:
-                                        جلو شیشه (گوریلا گلس 3), پشت پلاستیک, فریم پلاستیک
-                                    </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span class="font-weight-bold">تاریخ تولید:</span>
+                                        {{instance.date|default_if_none:''}}</li>
+                                    <li>
+                                        {{instance.about|default_if_none:''}}</li>
                                 </ul>
+                                <hr>
                             </li>
-                            <li>صفحه ی نمایش
+                            <li><h5>بدنه</h5>
                                 <ul>
-                                    <li>نوع:
-                                        صفحه نمایش لمسی خازنی Super AMOLED Plus, با 16 میلیون رنگ
-
+                                    <li><span class="font-weight-bold">ابعاد:</span>
+                                        {{instance.body_size|default_if_none:''}}</li>
+                                    <li><span class="font-weight-bold">وزن:</span>
+                                        {{instance.body_weight|default_if_none:''}}</li>
+                                    <li><span class="font-weight-bold">ساختار:</span>
+                                        {{instance.body_structure|default_if_none:''}}
                                     </li>
-                                    <li>اندازه:
-                                        6.7 اینچ, 110.2 سانتیمتر مربع
-
+                                    <li><span class="font-weight-bold">رنگ‌بندی:</span>
+                                        {{instance.body_colors|default_if_none:''}}
                                     </li>
-                                    <li>وضوح:
-                                        1080x2340 پیکسل, 19.5:9 نسبت (~385 ppi تراکم)
+                                    {% if instance.body_other %}
+                                    <li><span class="font-weight-bold">سایر:</span>
+                                        {{instance.body_other}}
                                     </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    {% endif %}
                                 </ul>
+                                <hr>
                             </li>
-                            <li>دوربین پشت
+                            <li><h5>نمایشگر</h5>
                                 <ul>
-                                    <li>چهار لنز مجزا:
-                                        64 مگاپیکسل, f/1.8, 26mm (wide), 1/1.73", 0.8Âµm, PDAF
-                                        12 مگاپیکسل, f/2.2, 123Ëš (ultrawide)
-                                        5 مگاپیکسل, f/2.4, (macro)
-                                        5 مگاپیکسل, f/2.4, (depth)
+                                    <li><span class="font-weight-bold">نوع:</span>
+                                        {{instance.display_type|default_if_none:''}}
                                     </li>
-                                    <li>فیلم برداری:
-                                        4Kبا سرعت 30 فریم در ثانیه, فیلم برداری 1080p با سرعت 30 فریم در ثانیه
+                                    <li><span class="font-weight-bold">وضوح:</span>
+                                        {{instance.display_quality|default_if_none:''}}
                                     </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span class="font-weight-bold">رنگ:</span>
+                                        {{instance.display_colors|default_if_none:''}}
+                                    </li>
+                                    <li><span class="font-weight-bold">ابعاد:</span>
+                                        {{instance.display_size|default_if_none:''}}
+                                    </li>
+                                    {% if instance.display_other %}
+                                    <li><span class="font-weight-bold">سایر:</span>
+                                        {{instance.display_other}}
+                                    </li>
+                                    {% endif %}
                                 </ul>
+                                <hr>
                             </li>
-                            <li>دوربین جلو
+                            <li><h5>سخت افزار</h5>
                                 <ul>
-                                    <li>تک لنز:
-                                        32 مگاپیکسل, f/2.0, 26mm (wide), 1/2.8", 0.8Âµm
-
+                                    <li><span class="font-weight-bold">پردازنده اصلی:</span>
+                                        {{instance.hardware_cpu|default_if_none:''}}
                                     </li>
-                                    <li>دیگر امکانات:
-                                        HDR
+                                    <li><span class="font-weight-bold">پردازنده گرافیکی:</span>
+                                        {{instance.hardware_gpu|default_if_none:''}}
                                     </li>
-                                    <li>فیلم برداری:
-                                        فیلم برداری 1080p با سرعت 30 فریم در ثانیه
+                                    <li><span class="font-weight-bold">حافظه رم:</span>
+                                        {{instance.hardware_ram|default_if_none:''}}
                                     </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span class="font-weight-bold">باتری:</span>
+                                        {{instance.hardware_battery|default_if_none:''}}
+                                    </li>
+                                    {% if instance.hardware_other %}
+                                    <li><span class="font-weight-bold">سایر:</span>
+                                        {{instance.hardware_other}}
+                                    </li>
+                                    {% endif %}
                                 </ul>
+                                <hr>
                             </li>
-                            <li>حافظه
+                            <li><h5>دوربین اصلی</h5>
                                 <ul>
-                                    <li>کارت حافظه
-                                        میکرو اس دیXC
+                                    <li><span class="font-weight-bold">وضوح تصویر:</span>
+                                        {{instance.back_cam_pic_quality|default_if_none:''}}
                                     </li>
-                                    <li>داخل دستگاه
-                                        128GB 6GB RAM, 128GB 8GB RAM
+                                    <li><span class="font-weight-bold">لنز:</span>
+                                        {{instance.back_cam_lens|default_if_none:''}}
                                     </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span class="font-weight-bold">وضوح فیلم:</span>
+                                        {{instance.back_cam_vid_quality|default_if_none:''}}
+                                    </li>
+                                    <li><span class="font-weight-bold">نرخ فیلم برداری:</span>
+                                        {{instance.back_cam_fps|default_if_none:''}}
+                                    </li>
+                                    {% if instance.back_camera_other %}
+                                    <li><span class="font-weight-bold">سایر:</span>
+                                        {{instance.back_camera_other}}
+                                    </li>
+                                    {% endif %}
                                 </ul>
+                                <hr>
                             </li>
-                            <li>سایر مشخصات
+                            <li><h5>دوربین جلو</h5>
                                 <ul>
-                                    <li>OS:
-                                        اندروید 10, One UI 2.1
+                                    <li><span class="font-weight-bold">وضوح تصویر:</span>
+                                        {{instance.front_cam_pic_quality|default_if_none:''}}
                                     </li>
-                                    <li>CPU:
-                                        هشت هسته ای (2x2.2 GHz کریو 470 گلد & 6x1.8 GHz کریو 470 سیلور)
+                                    <li><span class="font-weight-bold">لنز:</span>
+                                        {{instance.front_cam_lens|default_if_none:''}}
                                     </li>
-                                    <li>GPU:
-                                        Adreno 618
+                                    <li><span class="font-weight-bold">وضوح فیلم:</span>
+                                        {{instance.front_cam_vid_quality|default_if_none:''}}
                                     </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span class="font-weight-bold">نرخ فیلم برداری:</span>
+                                        {{instance.front_cam_fps|default_if_none:''}}
+                                    </li>
+                                    {% if instance.front_camera_other %}
+                                    <li><span class="font-weight-bold">سایر:</span>
+                                        {{instance.front_camera_other}}
+                                    </li>
+                                    {% endif %}
+                                </ul>
+                                <hr>
+                            </li>
+                            <li><h5>فضای ذخیره‌سازی</h5>
+                                <ul>
+                                    <li><span class="font-weight-bold">نوع:</span>
+                                        {{instance.storage_type|default_if_none:''}}
+                                    </li>
+                                    <li><span class="font-weight-bold">حجم:</span>
+                                        {{instance.storage_size|default_if_none:''}}
+                                    </li>
+                                    {% if instance.storage_other %}
+                                    <li><span class="font-weight-bold">سایر:</span>
+                                        {{instance.storage_other}}
+                                    </li>
+                                    {% endif %}
+                                </ul>
+                                <hr>
+                            </li>
+                            <li><h5>سایر مشخصات</h5>
+                                <ul>
+                                    <li><span class="font-weight-bold">نوع سیم کارت:</span>
+                                        {{instance.other_sim|default_if_none:''}}
+                                    </li>
+                                    <li><span class="font-weight-bold">تعداد سیم کارت:</span>
+                                        {{instance.other_sim_count|default_if_none:''}}
+                                    </li>
+                                    <li><span class="font-weight-bold">سیستم عامل:</span>
+                                        {{instance.other_os|default_if_none:''}}
+                                    </li>
+                                    <li><span class="font-weight-bold">رابط کاربری:</span>
+                                        {{instance.other_ui|default_if_none:''}}
+                                    </li>
+                                    <li><span class="font-weight-bold">سنسور‌ها:</span>
+                                        {{instance.other_sensors|default_if_none:''}}
+                                    </li>
+                                    {% if instance.other_specials %}
+                                    <li><span class="font-weight-bold">خصوصیات ویژه:</span>
+                                        {{instance.other_specials}}
+                                    </li>
+                                    {% endif %}
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <i class="far fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="tab-pane fade" id="nav-comment" role="tabpanel" aria-labelledby="nav-comment-tab">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illo veniam sit, porro eius
                         accusantium. Itaque ut tempora veritatis odit aliquid, rerum aperiam. Et, dolorem libero quod
                         blanditiis cum assumenda!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat quia nam architecto.
                         Culpa consequatur tempora officiis accusantium nulla cupiditate ex in voluptas eos nobis, maxime
                         magnam eveniet aperiam iusto.
-                    </div>
-                    <div class="tab-pane fade" id="nav-comment" role="tabpanel" aria-labelledby="nav-comment-tab">
-
                     </div>
                 </div>
             </div>
@@ -293,15 +346,15 @@
             <div class="connect ml-3">
                 <p>
                     <span class="footer-icon"><i class="fas fa-map-marker-alt"></i></span>
-                    <span>مازندران , ساری</span>
+                    <span>مازندران</span>
                 </p>
                 <p>
                     <span class="footer-icon"><i class="fas fa-mobile-alt"></i></span>
-                    <span>09331234567</span>
+                    <span>09123456789</span>
                 </p>
                 <p>
                     <span class="footer-icon"><i class="fas fa-phone"></i></span>
-                    <span>01133313456</span>
+                    <span>01123456789</span>
                 </p>
             </div>
             <hr class="bg-white">

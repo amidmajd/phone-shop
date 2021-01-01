@@ -18,9 +18,9 @@ class PhoneAdmin(admin.ModelAdmin):
             'body_other')}),
         ('نمایشگر', {'fields': (
             'display_type',
+            'display_quality',
             'display_colors',
             'display_size',
-            'display_quality',
             'display_other',
         )}),
         ('سخت افزار', {'fields': (
@@ -49,10 +49,11 @@ class PhoneAdmin(admin.ModelAdmin):
             'storage_size',
             'storage_other',
         )}),
-        ('اطلاعات دیگر', {'fields': (
+        ('سایر مشخصات', {'fields': (
             'other_sim',
             'other_sim_count',
             'other_os',
+            'other_ui',
             'other_sensors',
             'other_specials',
         )}),
