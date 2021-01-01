@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.utils import timezone
 from PIL import Image
 import uuid
 import os
@@ -33,6 +34,7 @@ class Phone(models.Model):
     name = models.CharField(verbose_name='نام', max_length=64, unique=True)
 
     date = models.DateField(verbose_name='تاریخ تولید', blank=True, null=True)
+    add_datetime = models.DateTimeField(verbose_name='زمان درج در سایت', default=timezone.now, editable=False)
     price = models.BigIntegerField(verbose_name='قیمت (تومان)')
     about = models.TextField(verbose_name='درباره', max_length=500, blank=True, null=True)
     image = models.ImageField(verbose_name='تصویر', default=os.path.join(base_image_dir, 'default.png'),
