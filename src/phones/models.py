@@ -5,9 +5,9 @@ from PIL import Image
 import uuid
 import os
 
-base_image_dir = 'phones'
+BASE_IMAGE_DIR = 'phones'
 
-brand_choices = (
+BRAND_CHOICES = (
     ("Samsung", "Samsung"),
     ("Apple", "Apple"),
     ("Xiaomi", "Xiaomi"),
@@ -29,16 +29,16 @@ class Phone(models.Model):
         editable=True)
     brand = models.CharField(
         verbose_name='برند',
-        max_length=max_of_brand_choices(brand_choices),
-        choices=brand_choices)
+        max_length=max_of_brand_choices(BRAND_CHOICES),
+        choices=BRAND_CHOICES)
     name = models.CharField(verbose_name='نام', max_length=64, unique=True)
 
     date = models.DateField(verbose_name='تاریخ تولید', blank=True, null=True)
     add_datetime = models.DateTimeField(verbose_name='زمان درج در سایت', default=timezone.now, editable=False)
     price = models.BigIntegerField(verbose_name='قیمت (تومان)')
     about = models.TextField(verbose_name='درباره', max_length=500, blank=True, null=True)
-    image = models.ImageField(verbose_name='تصویر', default=os.path.join(base_image_dir, 'default.png'),
-                              upload_to=base_image_dir,
+    image = models.ImageField(verbose_name='تصویر', default=os.path.join(BASE_IMAGE_DIR, 'default.png'),
+                              upload_to=BASE_IMAGE_DIR,
                               )
 
     body_size = models.CharField(verbose_name='ابعاد', max_length=200, blank=True, null=True)

@@ -1,4 +1,4 @@
-"""phone_shop URL Configuration
+""" URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -22,6 +22,6 @@ app_name = 'basket'
 
 urlpatterns = [
     path('', views.home, name="home"),
-    path('addphone/', views.addphone, name="addphone"),
-    path('removephone/', views.removephone, name="removephone"),
+    path('addphone/<str:phone_id>/', views.addphone, name="addphone"),
+    path('removephone/<str:phone_id>/', views.removephone, name="removephone"),
 ]
