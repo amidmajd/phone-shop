@@ -32,6 +32,7 @@ class Phone(models.Model):
         max_length=max_of_brand_choices(BRAND_CHOICES),
         choices=BRAND_CHOICES)
     name = models.CharField(verbose_name='نام', max_length=64, unique=True)
+    is_available = models.BooleanField('موجود', default=True)
 
     date = models.DateField(verbose_name='تاریخ تولید', blank=True, null=True)
     add_datetime = models.DateTimeField(verbose_name='زمان درج در سایت', default=timezone.now, editable=False)

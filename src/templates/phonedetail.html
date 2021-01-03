@@ -119,7 +119,11 @@
                         <div class="d-flex justify-content-between py-2 flex-wrap">
                             <h5 class="card-title font-weight-bold">{{instance.brand}}&nbsp;&nbsp;{{instance.name}}</h5>
                             <h6 class="card-subtitle align-self-center py-2 px-3 phone-price">
-                                <span class="value">{{instance.price}} تومان</span>
+                                {% if instance.is_available %}
+                                    <span class="value">{{instance.price}} تومان</span>
+                                {% else %}
+                                    <span class="value">ناموجود</span>
+                                {% endif %}
                             </h6>
                         </div>
                     </div>
@@ -127,14 +131,19 @@
                         <!-- Question Section -->
                         <div class="row p-0 m-0">
                             <!-- single question first -->
-                            <div class="col-12 card-red p-md-3 p-2">
-                                <a href="{% url 'basket:addphone' phone_id=instance.id  %}" class="card-icon d-flex justify-content-center">
-                                    <i class="fas fa-cart-arrow-down fa-fw"></i>
-                                    <h6 class="buy-title font-weight-bold">
-                                        افزودن به سبد خرید
-                                    </h6>
-                                </a>
-                            </div>
+                            {% if instance.is_available %}
+                                <div class="col-12 card-red p-md-3 p-2">
+                                    <a href="{% url 'basket:addphone' phone_id=instance.id  %}" class="card-icon d-flex justify-content-center">
+                            {% else %}
+                                <div class="col-12 bg-secondary p-md-3 p-2">
+                                    <a style="pointer-events: none; cursor: default;" class="card-icon d-flex justify-content-center">
+                            {% endif %}
+                                        <i class="fas fa-cart-arrow-down fa-fw"></i>
+                                        <h6 class="buy-title font-weight-bold">
+                                            افزودن به سبد خرید
+                                        </h6>
+                                    </a>
+                                </div>
                         </div>
                     </div>
                 </div>

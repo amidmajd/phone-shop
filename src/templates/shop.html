@@ -199,20 +199,31 @@
                             class="card-img-top img-fluid">
                             <div class="card-body">
                                 <h2 class="card-title">{{phone.brand}} {{phone.name}}</h2>
-                                <h5 class="card-subtitle">{{phone.price}} تومان</h5>
+                                <h5 class="card-subtitle">
+                                    {% if phone.is_available %}
+                                        <span class="value">{{phone.price}} تومان</span>
+                                    {% else %}
+                                        <span class="value">ناموجود</span>
+                                    {% endif %}
+                                </h5>
                             </div>
                             <div class="card-footer p-0">
                                 <!-- Section -->
                                 <div class="row p-0 m-0">
                                     <!-- single part first -->
-                                    <div class="col-12 col-md-7 card-red p-md-3 p-2">
-                                        <a href="{% url 'basket:addphone' phone_id=phone.id %}" class="card-icon d-flex justify-content-center">
-                                            <i class="fas fa-cart-arrow-down fa-fw"></i>
-                                            <h6 class="buy-title font-weight-bold">
-                                                افزودن به سبد خرید
-                                            </h6>
-                                        </a>
-                                    </div>
+                                    {% if phone.is_available %}
+                                        <div class="col-12 col-md-7 card-red p-md-3 p-2">
+                                            <a href="{% url 'basket:addphone' phone_id=phone.id  %}" class="card-icon d-flex justify-content-center">
+                                    {% else %}
+                                        <div class="col-12 col-md-7 bg-secondary p-md-3 p-2">
+                                            <a style="pointer-events: none; cursor: default;" class="card-icon d-flex justify-content-center">
+                                    {% endif %}
+                                                <i class="fas fa-cart-arrow-down fa-fw"></i>
+                                                <h6 class="buy-title font-weight-bold">
+                                                    افزودن به سبد خرید
+                                                </h6>
+                                            </a>
+                                        </div>
                                     <!-- single part socond -->
                                     <div class="col-12 col-md-5 card-white p-md-3 p-2">
                                         <a href="{% url 'phones:detail' id=phone.id %}" class="mr-1 d-flex justify-content-center" target="_blank">

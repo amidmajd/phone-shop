@@ -6,10 +6,10 @@ class PhoneAdmin(admin.ModelAdmin):
     # The fields to be used in displaying the User model.
     # These override the definitions on the base UserAdmin
     # that reference specific fields on auth.User.
-    list_display = ('brand', 'name', 'id', 'date', 'price')
+    list_display = ('brand', 'name', 'id', 'date', 'price', 'is_available')
     readonly_fields = ('add_datetime',)
     fieldsets = (
-        (None, {'fields': ('id', 'brand', 'name', 'date', 'add_datetime', 'price', 'about', 'image')}),
+        (None, {'fields': ('id', 'brand', 'name', 'date', 'add_datetime', 'price', 'is_available', 'about', 'image')}),
         ('بدنه', {'fields': (
             'body_size',
             'body_weight',
@@ -60,7 +60,7 @@ class PhoneAdmin(admin.ModelAdmin):
     )
     search_fields = ('brand', 'name', 'id', 'date', 'price')
     ordering = ('-add_datetime',)
-    list_filter = ('brand', 'other_os', 'storage_size', )
+    list_filter = ('is_available', 'brand', 'other_os', 'storage_size', )
     filter_horizontal = ()
 
 

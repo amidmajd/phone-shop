@@ -35,7 +35,9 @@ def addphone(request, phone_id):
         temp_item.count += 1
         temp_item.save()
     else:
-        Basket.objects.create(user=request.user, phone=Phone.objects.get(id=phone_id))
+        phone = Phone.objects.get(id=phone_id)
+        if phone.is_available:
+            Basket.objects.create(user=request.user, phone=phone)
 
     return redirect('basket:home')
 
