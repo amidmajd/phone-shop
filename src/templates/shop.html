@@ -191,66 +191,79 @@
         <!-- ====================== -->
         <!-- product cards -->
         <div class="card-group">
-            <div class="row">
-                {% for phone in phones %}
-                    <div class="col-md-6 col-10 col-lg-4 mx-auto my-2">
-                        <section class="card my-2 phone-card">
-                            <img src={{phone.image.url}} alt="note20"
-                            class="card-img-top img-fluid">
-                            <div class="card-body">
-                                <h2 class="card-title">{{phone.brand}} {{phone.name}}</h2>
-                                <h5 class="card-subtitle">
-                                    {% if phone.is_available %}
-                                        <span class="value js__price">{{phone.price}} تومان</span>
-                                    {% else %}
-                                        <span class="value">ناموجود</span>
-                                    {% endif %}
-                                </h5>
-                            </div>
-                            <div class="card-footer p-0">
-                                <!-- Section -->
-                                <div class="row p-0 m-0">
-                                    <!-- single part first -->
-                                    {% if phone.is_available %}
-                                        <div class="col-12 col-md-7 card-red p-md-3 p-2">
-                                            <a href="{% url 'basket:addphone' phone_id=phone.id  %}" class="card-icon d-flex justify-content-center">
-                                    {% else %}
-                                        <div class="col-12 col-md-7 bg-secondary p-md-3 p-2">
-                                            <a style="pointer-events: none; cursor: default;" class="card-icon d-flex justify-content-center">
-                                    {% endif %}
-                                                <i class="fas fa-cart-arrow-down fa-fw"></i>
-                                                <h6 class="buy-title font-weight-bold">
-                                                    افزودن به سبد خرید
-                                                </h6>
-                                            </a>
-                                        </div>
-                                    <!-- single part socond -->
-                                    <div class="col-12 col-md-5 card-white p-md-3 p-2">
-                                        <a href="{% url 'phones:detail' id=phone.id %}" class="mr-1 d-flex justify-content-center" target="_blank">
-                                            <h6 class="buy-title2">
-                                                جزییات
+            {% for phone in phones_page_obj %}
+                <div class="col-md-6 col-10 col-lg-4 mx-auto my-2">
+                    <section class="card my-2 phone-card">
+                        <img src={{phone.image.url}} alt="note20"
+                        class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h2 class="card-title">{{phone.brand}} {{phone.name}}</h2>
+                            <h5 class="card-subtitle">
+                                {% if phone.is_available %}
+                                    <span class="value js__price">{{phone.price}} تومان</span>
+                                {% else %}
+                                    <span class="value">ناموجود</span>
+                                {% endif %}
+                            </h5>
+                        </div>
+                        <div class="card-footer p-0">
+                            <!-- Section -->
+                            <div class="row p-0 m-0">
+                                <!-- single part first -->
+                                {% if phone.is_available %}
+                                    <div class="col-12 col-md-7 card-red p-md-3 p-2">
+                                        <a href="{% url 'basket:addphone' phone_id=phone.id  %}" class="card-icon d-flex justify-content-center">
+                                {% else %}
+                                    <div class="col-12 col-md-7 bg-secondary p-md-3 p-2">
+                                        <a style="pointer-events: none; cursor: default;" class="card-icon d-flex justify-content-center">
+                                {% endif %}
+                                            <i class="fas fa-cart-arrow-down fa-fw"></i>
+                                            <h6 class="buy-title font-weight-bold">
+                                                افزودن به سبد خرید
                                             </h6>
                                         </a>
                                     </div>
-                                    <!--End  Section -->
+                                <!-- single part socond -->
+                                <div class="col-12 col-md-5 card-white p-md-3 p-2">
+                                    <a href="{% url 'phones:detail' id=phone.id %}" class="mr-1 d-flex justify-content-center" target="_blank">
+                                        <h6 class="buy-title2">
+                                            جزییات
+                                        </h6>
+                                    </a>
                                 </div>
+                                <!--End  Section -->
                             </div>
-                        </section>
-                    </div>
-                {% endfor %}
-            </div>
+                        </div>
+                    </section>
+                </div>
+            {% endfor %}
         </div>
 
         <!-- end product cards -->
+
+        <!-- pagination -->
         <div class="row">
             <div class="btn-group btn-group-md mx-auto">
-                <button class="btn btn-outline-primary active">1</button>
-                <button class="btn btn-outline-primary ">2</button>
-                <button class="btn btn-outline-primary">3</button>
-                <button class="btn btn-outline-primary">4</button>
-                <button class="btn btn-outline-primary">>></button>
+                {% if phones_page_obj.has_previous %}
+                    <a class="btn btn-outline-primary mb-4" href="?page=1">نخستین</a>
+                    <a class="btn btn-outline-primary mb-4" href="?page={{ phones_page_obj.previous_page_number }}">قبلی</a>
+                {% endif %}
+        
+                {% for num in phones_page_obj.paginator.page_range %}
+                    {% if phones_page_obj.number == num %}
+                        <a class="btn btn-outline-primary active mb-4" href="?page={{ num }}">{{ num }}</a>
+                    {% elif num > phones_page_obj.number|add:'-3' and num < phones_page_obj.number|add:'3' %}
+                        <a class="btn btn-outline-primary mb-4" href="?page={{ num }}">{{ num }}</a>
+                    {% endif %}
+                {% endfor %}
+            
+                {% if phones_page_obj.has_next %}
+                    <a class="btn btn-outline-primary mb-4" href="?page={{ phones_page_obj.next_page_number }}">بعدی</a>
+                    <a class="btn btn-outline-primary mb-4" href="?page={{ phones_page_obj.paginator.num_pages }}">آخرین</a>
+                {% endif %}
             </div>
         </div>
+        <!-- end pagination -->
     </div>
     <!--Footer-->
     <footer class="footer pt-3 pb-5 mb-0">

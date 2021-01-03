@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.core.paginator import Paginator
 from phones.models import Phone
 
 
@@ -8,8 +9,13 @@ def home(request):
 
 
 def shop(request):
-    objs = Phone.objects.all().order_by('-add_datetime')
-    return render(request, 'shop.html', {"phones": objs})
+    phones = Phone.objects.all().order_by('-add_datetime')
+
+    paginator = Paginator(phones, 6)    # Show X phones per page
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
+    return render(request, 'shop.html', {"phones_page_obj": page_obj})
 
 
 def contactus(request):
