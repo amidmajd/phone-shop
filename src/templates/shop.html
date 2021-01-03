@@ -99,8 +99,8 @@
                         <a class="nav-item nav-link" href="{% url 'web:contactus' %}">ارتباط با ما</a>
                     </div>
                     <form class="form-inline my-2 my-lg-0 d-md-inline-block d-none">
-                        <input class="form-control mr-sm-2 mt-3" type="text" placeholder="جست‌وجو">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">جست‌وجو</button>
+                        <input class="form-control mr-sm-2 mt-3" type="text" placeholder="جست‌وجو در فروشگاه" name='search_query'>
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit" name='search' value='search'>جست‌وجو</button>
                     </form>
                 </div>
             </div>
@@ -112,44 +112,25 @@
         <!-- filter -->
         <div class="row">
             <div class="container ">
-                <section class="jumbotron col-12 col-md-8 " style="padding:1em 1em;">
+                <section class="jumbotron col-6 col-md-2" style="padding:0.5em 0.5em;">
                     <button class="btn btn-info " type="button" data-toggle="collapse" data-target="#selectcollapse"
                         aria-controls="mycollapse" aria-expanded="false" aria-label="Toggle Navigation">
                         فیلتر
                     </button>
 
                     <div class="collapse mt-2 " id="selectcollapse">
-                        <form action="" class="form-group">
+                        <form action="#" class="form-group" method="GET">
                             <div class="card mt-2">
                                 <button class="btn btn-default dropdown-toggle" type="button" data-toggle="collapse"
                                     data-target="#brandcollapse" aria-haspopup="true"
                                     aria-expanded="false">برند</button>
                                 <div class="collapse mt-2 mr-3 px-3" id="brandcollapse">
-
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">سامسونگ</label>
-                                    </div>
-
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                                        <label class="form-check-label" for="exampleCheck2">اپل</label>
-                                    </div>
-
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck3">
-                                        <label class="form-check-label" for="exampleCheck3">شیائومی</label>
-                                    </div>
-
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck4">
-                                        <label class="form-check-label" for="exampleCheck4">نوکیا</label>
-                                    </div>
-
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck5">
-                                        <label class="form-check-label" for="exampleCheck5">هوآوی</label>
-                                    </div>
+                                    {% for brand in brand_choices %}
+                                        <div class="form-group form-check">
+                                            <input type="checkbox" class="form-check-input" id={{brand}} name="b-{{brand}}">
+                                            <label class="form-check-label" for={{brand}}>{{brand}}</label>
+                                        </div>
+                                    {% endfor %}
                                 </div>
                             </div>
                             <div class="card mt-2">
@@ -162,7 +143,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">از</span>
                                         </div>
-                                        <input type="text" class="form-control" aria-label="">
+                                        <input type="text" class="form-control" aria-label="" name="price_from" />
                                         <div class="input-group-append">
                                             <span class="input-group-text">تومان</span>
                                         </div>
@@ -173,7 +154,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">تا</span>
                                         </div>
-                                        <input type="text" class="form-control" aria-label="">
+                                        <input type="text" class="form-control" aria-label="" name="price_to" >
                                         <div class="input-group-append">
                                             <span class="input-group-text">تومان</span>
                                         </div>
@@ -181,7 +162,7 @@
                                     <!-- end input groups -->
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-outline-info mt-2">اعمال فیلتر</button>
+                            <button type="submit" class="btn btn-outline-info mt-2" name='filter' value='filter'>اعمال فیلتر</button>
                         </form>
                     </div>
                 </section>
