@@ -37,7 +37,7 @@ class Phone(models.Model):
     date = models.DateField(verbose_name='تاریخ تولید', blank=True, null=True)
     add_datetime = models.DateTimeField(verbose_name='زمان درج در سایت', default=timezone.now, editable=False)
     price = models.BigIntegerField(verbose_name='قیمت (تومان)')
-    about = models.TextField(verbose_name='درباره', max_length=500, blank=True, null=True)
+    about = models.TextField(verbose_name='درباره', max_length=1500, blank=True, null=True)
     image = models.ImageField(verbose_name='تصویر', default=os.path.join(BASE_IMAGE_DIR, 'default.png'),
                               upload_to=BASE_IMAGE_DIR,
                               )
@@ -72,7 +72,7 @@ class Phone(models.Model):
     front_cam_fps = models.CharField(verbose_name='نرخ فیلم برداری', max_length=200, blank=True, null=True)
     front_camera_other = models.TextField(verbose_name='سایر', max_length=500, blank=True, null=True)
 
-    storage_type = models.CharField(verbose_name='نوع', max_length=200, blank=True, null=True)
+    storage_type = models.CharField(verbose_name='کارت حافظه', max_length=200, blank=True, null=True)
     storage_size = models.CharField(verbose_name='حجم', max_length=200, blank=True, null=True)
     storage_other = models.TextField(verbose_name='سایر', max_length=500, blank=True, null=True)
 

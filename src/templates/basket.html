@@ -46,7 +46,7 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td data-th="Price" class="text-center font-weight-bold" style="padding-top: 5.2%;">{{item.phone.price}}</td>
+                                        <td data-th="Price" class="text-center font-weight-bold js__price" style="padding-top: 5.2%;">{{item.phone.price}}</td>
                                         <td data-th="Quantity" style="padding-top: 4%;">
                                             <input type="number" name={{item.phone.id}} class="form-control form-control-lg text-center" value={{item.count}}
                                                 >
@@ -77,7 +77,7 @@
                 <div class="col-10 col-sm-6  mx-auto">
                     <div class="d-flex flex-row-reverse">
                         <h4 class="mt-2 ml-2">:جمع مبالغ خرید</h4>
-                        <h3 class="mt-2 ml-2">{{total_price}}</h3>
+                        <h3 class="mt-2 ml-2 js__price">{{total_price}}</h3>
                     </div>
                     <button class="btn btn-primary mb-4 btn-lg px-5" {% if items_count == 0 %} disabled {% endif %}>تایید و پرداخت</a>
                 </div>
@@ -96,6 +96,7 @@
     <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
     <!-- script js -->
     <script src="{% static 'assets/js/script.js' %}"></script>
+    <script src="{% static 'assets/js/price-fix.js' %}"></script>
 </body>
 
 </html>

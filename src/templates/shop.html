@@ -201,7 +201,7 @@
                                 <h2 class="card-title">{{phone.brand}} {{phone.name}}</h2>
                                 <h5 class="card-subtitle">
                                     {% if phone.is_available %}
-                                        <span class="value">{{phone.price}} تومان</span>
+                                        <span class="value js__price">{{phone.price}} تومان</span>
                                     {% else %}
                                         <span class="value">ناموجود</span>
                                     {% endif %}
@@ -299,6 +299,7 @@
     <!-- script js -->
     <script src="{% static 'assets/js/script.js' %}"></script>
     <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="{% static 'assets/js/price-fix.js' %}"></script>
 </body>
 
 </html>

@@ -60,7 +60,7 @@ class PhoneAdmin(admin.ModelAdmin):
     )
     search_fields = ('brand', 'name', 'id', 'date', 'price')
     ordering = ('-add_datetime',)
-    list_filter = ('is_available', 'brand', 'other_os', 'storage_size', )
+    list_filter = ('is_available', 'brand', 'other_os', 'storage_size', 'hardware_ram')
     filter_horizontal = ()
 
 

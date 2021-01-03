@@ -120,7 +120,7 @@
                             <h5 class="card-title font-weight-bold">{{instance.brand}}&nbsp;&nbsp;{{instance.name}}</h5>
                             <h6 class="card-subtitle align-self-center py-2 px-3 phone-price">
                                 {% if instance.is_available %}
-                                    <span class="value">{{instance.price}} تومان</span>
+                                    <span class="value js__price">{{instance.price}} تومان</span>
                                 {% else %}
                                     <span class="value">ناموجود</span>
                                 {% endif %}
@@ -286,7 +286,7 @@
                             </li>
                             <li><h5>فضای ذخیره‌سازی</h5>
                                 <ul>
-                                    <li><span class="font-weight-bold">نوع:</span>
+                                    <li><span class="font-weight-bold">کارت حافظه:</span>
                                         {{instance.storage_type|default_if_none:''}}
                                     </li>
                                     <li><span class="font-weight-bold">حجم:</span>
@@ -396,6 +396,7 @@
     <!-- script js -->
     <script src="{% static 'assets/js/script.js' %}"></script>
     <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="{% static 'assets/js/price-fix.js' %}"></script>
 </body>
 
 </html>
