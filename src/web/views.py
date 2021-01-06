@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.core.paginator import Paginator
-# from django.contrib.postgres.search import SearchVector
-from django.db.models import Q
+from django.contrib.postgres.search import SearchVector
+# from django.db.models import Q
 from phones.models import Phone
 
 
@@ -31,15 +31,18 @@ def shop(request):
 
     elif request.GET.get('search'):  # if search button is pressed
         search_query = request.GET.get('search_query')
-        # with postgresSQL
-        # phones = Phone.objects.annotate(search=SearchVector(name__contains, brand_contains)).filter(
-        #     search=search_query
-        # ).order_by('-add_datetime')
 
-        # without postgresSQL
-        phones = Phone.objects.filter(
-            Q(name__contains=search_query) | Q(brand__contains=search_query)
+        # with postgresSQL
+        phones = Phone.objects.annotate(
+            search=SearchVector('name', 'brand')
+        ).filter(
+            search=search_query
         ).order_by('-add_datetime')
+
+        # # without postgresSQL
+        # phones = Phone.objects.filter(
+        #     Q(name__contains=search_query) | Q(brand__contains=search_query)
+        # ).order_by('-add_datetime')
 
     else:   # default output
         phones = Phone.objects.all().order_by('-add_datetime')

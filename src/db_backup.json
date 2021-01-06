@@ -1,0 +1,1655 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-01-01T17:27:57.383Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-01-01T17:29:24.480Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0644\\u0646\\u0632\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-01-01T17:30:43.694Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "object_repr": "Samsung, Galaxy M51, 0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-01-01T17:32:30.381Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "object_repr": "Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-01-01T17:34:13.020Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0633\\u06cc\\u0633\\u062a\\u0645 \\u0639\\u0627\\u0645\\u0644\", \"\\u0631\\u0627\\u0628\\u0637 \\u06a9\\u0627\\u0631\\u0628\\u0631\\u06cc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-01-01T17:35:19.490Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "object_repr": "Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062d\\u062c\\u0645\", \"\\u0633\\u06cc\\u0633\\u062a\\u0645 \\u0639\\u0627\\u0645\\u0644\", \"\\u0631\\u0627\\u0628\\u0637 \\u06a9\\u0627\\u0631\\u0628\\u0631\\u06cc\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-01-01T18:41:40.866Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "object_repr": "Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-01-01T18:42:48.065Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "object_repr": "Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-01-01T18:43:21.649Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "object_repr": "Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-01-01T18:43:45.310Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "object_repr": "Xiaomi, test, 6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-01-01T18:49:31.977Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "object_repr": "Xiaomi, test, 6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-01-01T18:50:27.192Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "object_repr": "Xiaomi, test, 6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-01-01T18:53:12.977Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "object_repr": "Xiaomi, test, 6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-01-01T18:55:08.422Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "object_repr": "Xiaomi, test, 6598cecf-a050-4d8f-8bb7-1fa8b43f6df9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-01-01T18:55:37.764Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8ce54395-10bb-4e3f-82ec-6f3168030121",
+    "object_repr": "Xiaomi, Test Name, 8ce54395-10bb-4e3f-82ec-6f3168030121",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-01-01T19:45:33.320Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "a665047d-e27a-4201-acba-22d22f95ede2",
+    "object_repr": "Samsung, 132123123, a665047d-e27a-4201-acba-22d22f95ede2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-01-01T19:45:43.213Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2b27e3d7-b492-4504-b578-d73e3fac6d6b",
+    "object_repr": "Huawei, 4556556, 2b27e3d7-b492-4504-b578-d73e3fac6d6b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-01-02T16:14:23.372Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "user:amidmajd, phone:Samsung, 132123123, a665047d-e27a-4201-acba-22d22f95ede2, count:3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-01-02T16:20:48.516Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "user:amidmajd, phone:Xiaomi, Test Name, 8ce54395-10bb-4e3f-82ec-6f3168030121, count:4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-01-02T16:36:48.548Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-01-02T17:27:02.760Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "user:amidmajd, phone:Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad, count:2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-01-02T17:27:11.991Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy M51, 0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf, count:3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-01-02T17:27:19.744Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "user:amidmajd, phone:Xiaomi, Test Name, 8ce54395-10bb-4e3f-82ec-6f3168030121, count:5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-01-02T18:16:00.785Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "user:amidmajd, phone:Samsung, 132123123, a665047d-e27a-4201-acba-22d22f95ede2, count:213",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-01-02T18:20:52.865Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "user:amidmajd, phone:Huawei, 4556556, 2b27e3d7-b492-4504-b578-d73e3fac6d6b, count:4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-01-02T18:36:49.251Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-01-02T20:33:35.415Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-01-02T20:36:35.139Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-01-02T20:40:40.628Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-01-02T20:42:18.453Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-01-02T20:42:40.251Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-01-02T20:43:28.490Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "user:amidmajd, phone:Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15, count:4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-01-02T21:19:12.284Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "user:amidmajd, phone:Xiaomi, Test Name, 8ce54395-10bb-4e3f-82ec-6f3168030121, count:1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-01-02T21:19:12.409Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "user:amidmajd, phone:Xiaomi, Test Name, 8ce54395-10bb-4e3f-82ec-6f3168030121, count:1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-01-03T12:04:01.461Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "testuser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-01-03T12:05:52.128Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "testuser",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-01-03T12:06:01.765Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "staffuser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-01-03T12:06:12.837Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "testuser",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-01-03T12:07:02.319Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "staff",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-01-03T12:09:22.636Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "staffuser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-01-03T12:39:28.585Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "a665047d-e27a-4201-acba-22d22f95ede2",
+    "object_repr": "Samsung, 132123123, a665047d-e27a-4201-acba-22d22f95ede2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0645\\u0648\\u062c\\u0648\\u062f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-01-03T12:47:14.875Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2b27e3d7-b492-4504-b578-d73e3fac6d6b",
+    "object_repr": "Huawei, 4556556, 2b27e3d7-b492-4504-b578-d73e3fac6d6b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-01-03T12:47:15.049Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "a665047d-e27a-4201-acba-22d22f95ede2",
+    "object_repr": "Samsung, 132123123, a665047d-e27a-4201-acba-22d22f95ede2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-01-03T12:47:15.171Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8ce54395-10bb-4e3f-82ec-6f3168030121",
+    "object_repr": "Xiaomi, Test Name, 8ce54395-10bb-4e3f-82ec-6f3168030121",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2021-01-03T12:51:17.941Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "object_repr": "Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0645\\u0648\\u062c\\u0648\\u062f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2021-01-03T17:18:48.242Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0627\\u0631\\u06cc\\u062e \\u062a\\u0648\\u0644\\u06cc\\u062f\", \"\\u0642\\u06cc\\u0645\\u062a (\\u062a\\u0648\\u0645\\u0627\\u0646)\", \"\\u062f\\u0631\\u0628\\u0627\\u0631\\u0647\", \"\\u062a\\u0635\\u0648\\u06cc\\u0631\", \"\\u0627\\u0628\\u0639\\u0627\\u062f\", \"\\u0648\\u0632\\u0646\", \"\\u0633\\u0627\\u062e\\u062a\\u0627\\u0631\", \"\\u0631\\u0646\\u06af\\u200c\\u0628\\u0646\\u062f\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0648\\u0636\\u0648\\u062d\", \"\\u0627\\u0628\\u0639\\u0627\\u062f\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u067e\\u0631\\u062f\\u0627\\u0632\\u0646\\u062f\\u0647 \\u0627\\u0635\\u0644\\u06cc\", \"\\u067e\\u0631\\u062f\\u0627\\u0632\\u0646\\u062f\\u0647 \\u06af\\u0631\\u0627\\u0641\\u06cc\\u06a9\\u06cc\", \"\\u0628\\u0627\\u062a\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0648\\u0636\\u0648\\u062d \\u062a\\u0635\\u0648\\u06cc\\u0631\", \"\\u0644\\u0646\\u0632\", \"\\u0648\\u0636\\u0648\\u062d \\u0641\\u06cc\\u0644\\u0645\", \"\\u0646\\u0631\\u062e \\u0641\\u06cc\\u0644\\u0645 \\u0628\\u0631\\u062f\\u0627\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0644\\u0646\\u0632\", \"\\u0648\\u0636\\u0648\\u062d \\u0641\\u06cc\\u0644\\u0645\", \"\\u0646\\u0631\\u062e \\u0641\\u06cc\\u0644\\u0645 \\u0628\\u0631\\u062f\\u0627\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u062d\\u062c\\u0645\", \"\\u0633\\u06cc\\u0633\\u062a\\u0645 \\u0639\\u0627\\u0645\\u0644\", \"\\u0631\\u0627\\u0628\\u0637 \\u06a9\\u0627\\u0631\\u0628\\u0631\\u06cc\", \"\\u0633\\u0646\\u0633\\u0648\\u0631\\u200c\\u0647\\u0627\", \"\\u062e\\u0635\\u0648\\u0635\\u06cc\\u0627\\u062a \\u0648\\u06cc\\u0698\\u0647\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2021-01-03T17:20:33.125Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2021-01-03T17:27:30.879Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0644\\u0646\\u0632\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u062e\\u0635\\u0648\\u0635\\u06cc\\u0627\\u062a \\u0648\\u06cc\\u0698\\u0647\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2021-01-03T17:28:20.015Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0639\\u062f\\u0627\\u062f \\u0633\\u06cc\\u0645 \\u06a9\\u0627\\u0631\\u062a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2021-01-03T17:30:15.807Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062d\\u062c\\u0645\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2021-01-03T17:38:25.429Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "object_repr": "Apple, Iphone X, 4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0627\\u0631\\u06cc\\u062e \\u062a\\u0648\\u0644\\u06cc\\u062f\", \"\\u0642\\u06cc\\u0645\\u062a (\\u062a\\u0648\\u0645\\u0627\\u0646)\", \"\\u062f\\u0631\\u0628\\u0627\\u0631\\u0647\", \"\\u0627\\u0628\\u0639\\u0627\\u062f\", \"\\u0648\\u0632\\u0646\", \"\\u0633\\u0627\\u062e\\u062a\\u0627\\u0631\", \"\\u0631\\u0646\\u06af\\u200c\\u0628\\u0646\\u062f\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0646\\u0648\\u0639\", \"\\u0648\\u0636\\u0648\\u062d\", \"\\u0631\\u0646\\u06af\", \"\\u0627\\u0628\\u0639\\u0627\\u062f\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u067e\\u0631\\u062f\\u0627\\u0632\\u0646\\u062f\\u0647 \\u0627\\u0635\\u0644\\u06cc\", \"\\u067e\\u0631\\u062f\\u0627\\u0632\\u0646\\u062f\\u0647 \\u06af\\u0631\\u0627\\u0641\\u06cc\\u06a9\\u06cc\", \"\\u062d\\u0627\\u0641\\u0638\\u0647 \\u0631\\u0645\", \"\\u0628\\u0627\\u062a\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0648\\u0636\\u0648\\u062d \\u062a\\u0635\\u0648\\u06cc\\u0631\", \"\\u0644\\u0646\\u0632\", \"\\u0648\\u0636\\u0648\\u062d \\u0641\\u06cc\\u0644\\u0645\", \"\\u0646\\u0631\\u062e \\u0641\\u06cc\\u0644\\u0645 \\u0628\\u0631\\u062f\\u0627\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0648\\u0636\\u0648\\u062d \\u062a\\u0635\\u0648\\u06cc\\u0631\", \"\\u0644\\u0646\\u0632\", \"\\u0648\\u0636\\u0648\\u062d \\u0641\\u06cc\\u0644\\u0645\", \"\\u0646\\u0631\\u062e \\u0641\\u06cc\\u0644\\u0645 \\u0628\\u0631\\u062f\\u0627\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u062d\\u062c\\u0645\", \"\\u0646\\u0648\\u0639 \\u0633\\u06cc\\u0645 \\u06a9\\u0627\\u0631\\u062a\", \"\\u062a\\u0639\\u062f\\u0627\\u062f \\u0633\\u06cc\\u0645 \\u06a9\\u0627\\u0631\\u062a\", \"\\u0633\\u06cc\\u0633\\u062a\\u0645 \\u0639\\u0627\\u0645\\u0644\", \"\\u0631\\u0627\\u0628\\u0637 \\u06a9\\u0627\\u0631\\u0628\\u0631\\u06cc\", \"\\u0633\\u0646\\u0633\\u0648\\u0631\\u200c\\u0647\\u0627\", \"\\u062e\\u0635\\u0648\\u0635\\u06cc\\u0627\\u062a \\u0648\\u06cc\\u0698\\u0647\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2021-01-03T17:41:12.453Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82622bf5-795c-4c55-be78-49208074da15",
+    "object_repr": "Samsung, Galaxy Note 20, 82622bf5-795c-4c55-be78-49208074da15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0646\\u0648\\u0639 \\u0633\\u06cc\\u0645 \\u06a9\\u0627\\u0631\\u062a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2021-01-03T17:52:00.149Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "c816aa74-e070-46a1-9e33-79e8f6b6bd6d",
+    "object_repr": "Samsung, Galaxy A51, c816aa74-e070-46a1-9e33-79e8f6b6bd6d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2021-01-03T17:52:53.528Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "object_repr": "Samsung, Galaxy M51, 0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0645\\u0648\\u062c\\u0648\\u062f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2021-01-03T18:10:12.075Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1cbb7c94-edd6-4355-9c4c-e6ab6aeb6d8c",
+    "object_repr": "Xiaomi, Redmi Note 8 Pro, 1cbb7c94-edd6-4355-9c4c-e6ab6aeb6d8c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2021-01-03T18:13:05.489Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+    "object_repr": "Apple, iPhone 12 Pro, cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2021-01-03T18:19:02.184Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1cbb7c94-edd6-4355-9c4c-e6ab6aeb6d8c",
+    "object_repr": "Xiaomi, Redmi Note 8 Pro, 1cbb7c94-edd6-4355-9c4c-e6ab6aeb6d8c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0644\\u0646\\u0632\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2021-01-03T18:23:16.488Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+    "object_repr": "Apple, iPhone 12 Pro, cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0627\\u0628\\u0639\\u0627\\u062f\", \"\\u0648\\u0632\\u0646\", \"\\u0633\\u0627\\u062e\\u062a\\u0627\\u0631\", \"\\u0631\\u0646\\u06af\\u200c\\u0628\\u0646\\u062f\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0646\\u0648\\u0639\", \"\\u0648\\u0636\\u0648\\u062d\", \"\\u0631\\u0646\\u06af\", \"\\u0627\\u0628\\u0639\\u0627\\u062f\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u067e\\u0631\\u062f\\u0627\\u0632\\u0646\\u062f\\u0647 \\u0627\\u0635\\u0644\\u06cc\", \"\\u067e\\u0631\\u062f\\u0627\\u0632\\u0646\\u062f\\u0647 \\u06af\\u0631\\u0627\\u0641\\u06cc\\u06a9\\u06cc\", \"\\u062d\\u0627\\u0641\\u0638\\u0647 \\u0631\\u0645\", \"\\u0628\\u0627\\u062a\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0648\\u0636\\u0648\\u062d \\u062a\\u0635\\u0648\\u06cc\\u0631\", \"\\u0644\\u0646\\u0632\", \"\\u0648\\u0636\\u0648\\u062d \\u0641\\u06cc\\u0644\\u0645\", \"\\u0646\\u0631\\u062e \\u0641\\u06cc\\u0644\\u0645 \\u0628\\u0631\\u062f\\u0627\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0648\\u0636\\u0648\\u062d \\u062a\\u0635\\u0648\\u06cc\\u0631\", \"\\u0644\\u0646\\u0632\", \"\\u0648\\u0636\\u0648\\u062d \\u0641\\u06cc\\u0644\\u0645\", \"\\u0646\\u0631\\u062e \\u0641\\u06cc\\u0644\\u0645 \\u0628\\u0631\\u062f\\u0627\\u0631\\u06cc\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u06a9\\u0627\\u0631\\u062a \\u062d\\u0627\\u0641\\u0638\\u0647\", \"\\u062d\\u062c\\u0645\", \"\\u0633\\u0627\\u06cc\\u0631\", \"\\u0646\\u0648\\u0639 \\u0633\\u06cc\\u0645 \\u06a9\\u0627\\u0631\\u062a\", \"\\u062a\\u0639\\u062f\\u0627\\u062f \\u0633\\u06cc\\u0645 \\u06a9\\u0627\\u0631\\u062a\", \"\\u0633\\u06cc\\u0633\\u062a\\u0645 \\u0639\\u0627\\u0645\\u0644\", \"\\u0631\\u0627\\u0628\\u0637 \\u06a9\\u0627\\u0631\\u0628\\u0631\\u06cc\", \"\\u0633\\u0646\\u0633\\u0648\\u0631\\u200c\\u0647\\u0627\", \"\\u062e\\u0635\\u0648\\u0635\\u06cc\\u0627\\u062a \\u0648\\u06cc\\u0698\\u0647\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2021-01-03T18:37:34.731Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "70604ce1-32e0-4e9a-b315-9f01f636ff59",
+    "object_repr": "Samsung, Galaxy Z Flip, 70604ce1-32e0-4e9a-b315-9f01f636ff59",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2021-01-03T18:38:51.391Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+    "object_repr": "Apple, iPhone 12 Pro, cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2021-01-03T18:56:00.716Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "object_repr": "Samsung, Galaxy M51, 0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2021-01-03T18:57:45.683Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "c816aa74-e070-46a1-9e33-79e8f6b6bd6d",
+    "object_repr": "Samsung, Galaxy A51, c816aa74-e070-46a1-9e33-79e8f6b6bd6d",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2021-01-03T18:58:16.172Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "object_repr": "Samsung, Galaxy M51, 0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2021-01-03T18:59:33.983Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "c816aa74-e070-46a1-9e33-79e8f6b6bd6d",
+    "object_repr": "Samsung, Galaxy A51, c816aa74-e070-46a1-9e33-79e8f6b6bd6d",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u062a\\u0635\\u0648\\u06cc\\u0631\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add phone",
+    "content_type": 7,
+    "codename": "add_phone"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change phone",
+    "content_type": 7,
+    "codename": "change_phone"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete phone",
+    "content_type": 7,
+    "codename": "delete_phone"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view phone",
+    "content_type": 7,
+    "codename": "view_phone"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add basket",
+    "content_type": 8,
+    "codename": "add_basket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change basket",
+    "content_type": 8,
+    "codename": "change_basket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete basket",
+    "content_type": 8,
+    "codename": "delete_basket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view basket",
+    "content_type": 8,
+    "codename": "view_basket"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "staff",
+    "permissions": [
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$w2gvyXy16P3S$IBTSKq8/oWkfCzWi4eVpeyXP2lNlBjM4fwGYyCSfMTA=",
+    "last_login": "2021-01-04T14:10:39.519Z",
+    "is_superuser": true,
+    "username": "amidmajd",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-12-31T22:47:25.481Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$RhHLEzmHJOnx$PjfvZkc3zrqYdzlQi8zU4wx56XLoJOEh5HxYnv6hD2g=",
+    "last_login": "2021-01-03T12:07:50Z",
+    "is_superuser": false,
+    "username": "staffuser",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-01-03T12:02:40Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$v4xBnK1QR3j3$2mHCl79bp6wIj8X6VLnSYT4CECACktfQ7I9q4UGFMyg=",
+    "last_login": "2021-01-04T14:10:30.719Z",
+    "is_superuser": false,
+    "username": "testuser",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-01-03T12:06:12.676Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "phones",
+    "model": "phone"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "basket",
+    "model": "basket"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bpcx71o30vr6yb62dyxoxrf8b91aiop0",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgUMCj976B7LKLVE2blPZk_Lsh6UGvM5N5iwTHXtPReEsziavQ4vLLEPKTly7oAct9lXld9m1G2RN52ianlfh1O9u_QYVW-xaBwHPxozVcdByU9SXzCA40OeUoG5MxaD_kiMFbhWYAF9AaKp5tFJ8v-eI4LA:1kwQZD:El5G3QgiM8ymxojgdoR1R2dXPFArrrjR-b8pEIi9uXc",
+    "expire_date": "2021-01-18T14:10:39.675Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dta9pkvm03gyxnmnpoqugbcp1i6yxzkt",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgUMCj976B7LKLVE2blPZk_Lsh6UGvM5N5iwTHXtPReEsziavQ4vLLEPKTly7oAct9lXld9m1G2RN52ianlfh1O9u_QYVW-xaBwHPxozVcdByU9SXzCA40OeUoG5MxaD_kiMFbhWYAF9AaKp5tFJ8v-eI4LA:1kw36M:RSnnODdCtYyARUuZ5dLCuePiX1ndDFD5AdZgnlUwPCs",
+    "expire_date": "2021-01-17T13:07:18.008Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r6x7jt3yr0x2e6mjxxigidgvdv2zy0go",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgUMCj976B7LKLVE2blPZk_Lsh6UGvM5N5iwTHXtPReEsziavQ4vLLEPKTly7oAct9lXld9m1G2RN52ianlfh1O9u_QYVW-xaBwHPxozVcdByU9SXzCA40OeUoG5MxaD_kiMFbhWYAF9AaKp5tFJ8v-eI4LA:1kw2Ca:Qz4sOIwwvHU0c9-5JTeHMIH7CafCxsHis6w2mGSptcc",
+    "expire_date": "2021-01-17T12:09:40.931Z"
+  }
+},
+{
+  "model": "phones.phone",
+  "pk": "0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+  "fields": {
+    "brand": "Samsung",
+    "name": "Galaxy M51",
+    "is_available": false,
+    "date": "2020-10-07",
+    "add_datetime": "2021-01-01T19:39:21.515Z",
+    "price": 6000000,
+    "about": "",
+    "image": "phones/Galaxy-m51.jpg",
+    "body_size": null,
+    "body_weight": null,
+    "body_structure": null,
+    "body_colors": null,
+    "body_other": "",
+    "display_type": null,
+    "display_quality": null,
+    "display_colors": null,
+    "display_size": null,
+    "display_other": "",
+    "hardware_cpu": null,
+    "hardware_gpu": null,
+    "hardware_ram": null,
+    "hardware_battery": null,
+    "hardware_other": "",
+    "back_cam_pic_quality": null,
+    "back_cam_lens": "",
+    "back_cam_vid_quality": null,
+    "back_cam_fps": null,
+    "back_camera_other": "",
+    "front_cam_pic_quality": null,
+    "front_cam_lens": "",
+    "front_cam_vid_quality": null,
+    "front_cam_fps": null,
+    "front_camera_other": "",
+    "storage_type": null,
+    "storage_size": null,
+    "storage_other": "",
+    "other_sim": null,
+    "other_sim_count": null,
+    "other_os": null,
+    "other_ui": null,
+    "other_sensors": null,
+    "other_specials": ""
+  }
+},
+{
+  "model": "phones.phone",
+  "pk": "1cbb7c94-edd6-4355-9c4c-e6ab6aeb6d8c",
+  "fields": {
+    "brand": "Xiaomi",
+    "name": "Redmi Note 8 Pro",
+    "is_available": true,
+    "date": "2019-08-29",
+    "add_datetime": "2021-01-03T18:10:12.005Z",
+    "price": 7890000,
+    "about": "گوشی مدل «Redmi Note 8 Pro» از سری محصولات شرکت مطرح شیائومی است که با 4 دوربین در پشت گوشی و پنل­ IPS LCD ساخته‌شده و فاصله لبه صفحه‌نمایش در آن بسیار کم است. این محصول دارای حسگر اثرانگشت است و نمایشگر آن رزولوشن بالایی در مقایسه با گوشی‌های معمول موجود در بازار دارد؛ به‌طوری‌که در اندازه‌ی 6.53 اینچی‌اش، حدود 395 پیکسل را در هر اینچ جا داده است. در گوشی ردمی‌ نوت 8 پرو شیائومی نمایشگر تقریباً تمام قاب جلویی گوشی را پر کرده است. این مشخصه در کنار بدنه‌ای از جنس شیشه قرار گرفته است که ظاهر چندرنگی و جلوه­‌ای لوکس به ردمی نوت 8 پرو بخشیده است.",
+    "image": "phones/xiaomi-redmi-note-8-pro-0.jpg",
+    "body_size": "161.4x76.4x8.8 میلیمتر",
+    "body_weight": "200 گرم",
+    "body_structure": "جلو شیشه (گوریلا گلس 5), پشت شیشه (گوریلا گلس 5), فریم پلاستیک",
+    "body_colors": "مشكی, قرمز, آبی, سفيد, Sea آبی, آبی تیره, آبی کهربایی, Twiنارنجی روشن",
+    "body_other": "",
+    "display_type": "لمسی خازنی IPS LCD",
+    "display_quality": "1080x2340 پیکسل, 19.5:9 نسبت (~395 ppi تراکم)",
+    "display_colors": "16 میلیون",
+    "display_size": "6.53 اینچ",
+    "display_other": "500 nits max brightness (advertised),\r\nHDR,\r\nکورنینگ گوریلا گلس 5",
+    "hardware_cpu": "هشت هسته ای (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "hardware_gpu": "Mali-G76 MC4",
+    "hardware_ram": "6 GB, 8 GB",
+    "hardware_battery": "Non-removable Li-Po 4500 mAh",
+    "hardware_other": "Mediatek هلیو G90T (12nm)",
+    "back_cam_pic_quality": "8K",
+    "back_cam_lens": "64 مگاپیکسل, f/1.9, 26mm (wide), 1/1.72\", 0.8µm, PDAF,\r\n8 مگاپیکسل, f/2.2, 13mm (ultrawide), 1/4.0\", 1.12µm,\r\n2 مگاپیکسل, f/2.4, (macro), 1/5.0\", 1.75µm,\r\n2 مگاپیکسل, f/2.4, (depth)",
+    "back_cam_vid_quality": "فیلم برداری 2160p با سرعت 30 فریم در ثانیه, 1080p@30/60/120fps, فیلم برداری 720p با سرعت 960 فریم در ثانیه, ژیروسکوپ-EIS",
+    "back_cam_fps": "30, 60, 120, 920",
+    "back_camera_other": "فلش LED, تصویربرداری HDR, پانوراما",
+    "front_cam_pic_quality": "Full HD",
+    "front_cam_lens": "20 مگاپیکسل, f/2.0, (wide), 1/3\", 0.9µm",
+    "front_cam_vid_quality": "فیلم برداری 1080p با سرعت 30 فریم در ثانیه",
+    "front_cam_fps": "30",
+    "front_camera_other": "HDR, پانوراما",
+    "storage_type": "میکرو اس دیXC",
+    "storage_size": "128 GB, 256 GB",
+    "storage_other": "از اسلات مشترک سیم کارت استفاده می کند",
+    "other_sim": "2G, 3G, 4G",
+    "other_sim_count": "2",
+    "other_os": "Android 9",
+    "other_ui": "MIUI 11",
+    "other_sensors": "قطب‌نما (Compass) , شتاب‌سنج (Accelerometer) , مجاورت (Proximity) , ژیروسکوپ (Gyro) , اثرانگشت روی قاب پشتی (FingerPrint|Rear-Mounted)",
+    "other_specials": "قابل ارتقا به Android 10, شارژ سریع 18 واتی,\r\nUSB Type-C 1.0 v2.0,\r\nA-GPS , GLONASS , Beidou|BDS , GALILEO,\r\nبلوتوث نسخه 5.0"
+  }
+},
+{
+  "model": "phones.phone",
+  "pk": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+  "fields": {
+    "brand": "Apple",
+    "name": "Iphone X",
+    "is_available": false,
+    "date": "2017-09-01",
+    "add_datetime": "2021-01-01T19:39:21.515Z",
+    "price": 26000000,
+    "about": "اپل در سالگرد ده‌سالگی آیفون، از آیفونی سخن به میان­ آورد که آن را با نام آیفون 10 یا آیفون ایکس صدا می‌­زد. بسیاری از قسمت­‌های آیفون جدید، دست‌خوش تغییرات بزرگی شده‌­ که طرف­داران اپل را هیجان­‌زده کرده و آیفون 10 را به محصولی متفاوت تبدیل کرده است. نمایشگری که این بار با پنل­ اولد ساخته‌شده و اپل نام فناوری به‌کاررفته در آن را سوپر رتینا گذاشته، تابه‌حال در هیچ آیفون دیگری استفاده‌ نشده است. این نمایشگر رزولوشن بالایی در مقایسه با آیفون­‌های قبلی دارد؛ به‌طوری‌که در اندازه­‌ی 5.8اینچی‌اش، حدود 458 پیکسل را در هر اینچ جا داده است. این اولین‌بار است که این حجم از پیکسل در اینچ و همچنین ابعاد در نمایشگر آیفون­‌ها استفاده شده است؛ همچنین این نمایشگر تقریبا تمام قاب جلویی گوشی را پر کرده است. این مشخصه در کنار لبه­‌های براق قاب اصلی، جلوه­‌ای لوکس به آیفون 10 بخشیده است.",
+    "image": "phones/apple-iphone-x-new-1.jpg",
+    "body_size": "7.7 × 70.9 × 143.6 میلی‌متر",
+    "body_weight": "174 گرم",
+    "body_structure": "فلز و شیشه (محافظ گوریلا گلس روی قاب پشتی)",
+    "body_colors": "خاکستری, نقره‌ای",
+    "body_other": "دارای گواهینامه IP67 مقاوم در برابر گرد و غبار و آب تا عمق 1 متر و به مدت 30 دقیقه",
+    "display_type": "Super Retina",
+    "display_quality": "2436 × 1125 ~ 458 پیکسل بر هر اینچ",
+    "display_colors": "16 میلیون رنگ",
+    "display_size": "5.8 اینچ",
+    "display_other": "Scratch-Resistant Glass,\r\nپشتیبانی از استاندارد Dolby Vision/HDR10,\r\nمجهز به فناوری تشخیص لمس سه‌بعدی (3D Touch),\r\nقابلیت نمایش رنگ‌های نزدیک به واقعیت (True-Tone Display),\r\nقابلیت دریافت تا 10 لمس همزمان",
+    "hardware_cpu": "Dual-Core Monsoon + Quad-Core Mistral CPU",
+    "hardware_gpu": "Apple Three Core GPU",
+    "hardware_ram": "3 GB",
+    "hardware_battery": "2716 mAh",
+    "hardware_other": "Apple A11 Bionic Chipset",
+    "back_cam_pic_quality": "4K",
+    "back_cam_lens": "دو تا 12 مگاپیکسل, f/1.8 & f/2.4, فوکوس خودکار مبتنی بر تشخیص فاز, OIS, زوم اپتیکال 2 برابر, quad-LED (دوگانه tone) فلش,\r\nمجهز به زوم اپتیکال تا 2 برابر (2x Optical Zoom),\r\nقابلیت عکاسی HDR",
+    "back_cam_vid_quality": "4K",
+    "back_cam_fps": "30, 60, 120, 240",
+    "back_camera_other": "ثبت اطلاعات مکانی (geo-tagging), ضبط همزمان تصویر 8 مگاپیکسلی و ویدئوی 4K, فوکوس لمسی (touch focus), تشخیص صورت و لبخند, تصویربرداری HDR (عکس/پانوراما)",
+    "front_cam_pic_quality": "4K",
+    "front_cam_lens": "7 مگاپیکسل, f/2.2, فیلم برداری 1080p با سرعت 30 فریم در ثانیه, فیلم برداری 720p با سرعت 240 فریم در ثانیه, تشخیص چهره, تصویربرداری HDR, پانوراما",
+    "front_cam_vid_quality": "4K",
+    "front_cam_fps": "30",
+    "front_camera_other": "دارای دریچه‌ی دیافراگم f/2.2,\r\nقابلیت عکاسی پانوراما (Panorama),\r\nقابلیت فوکوس با اشاره روی سوژه (Touch Focus)",
+    "storage_type": null,
+    "storage_size": "64 GB",
+    "storage_other": "",
+    "other_sim": "2G , 3G , 4G",
+    "other_sim_count": "1",
+    "other_os": "iOS",
+    "other_ui": "iOS",
+    "other_sensors": "قطب‌نما (Compass) , شتاب‌سنج (Accelerometer) , مجاورت (Proximity) , فشارسنج (Barometer) , ژیروسکوپ (Gyro) , تشخیص چهره بیومتریک (Face ID)",
+    "other_specials": "مقاوم در برابر آب , مناسب عکاسی , مناسب عکاسی سلفی , مناسب بازی , مجهز به حس‌گر تشخیص چهره,\r\nبلوتوث نسخه‌ 5.0,\r\nLightning,\r\nقابلیت شارژ سریع باتری (Fast Battery Charging),\r\nقابلیت حذف صدا‌های مزاحم هنگام مکالمه با استفاده از میکروفون دوم (Active Noise Cancellation With Dedicated Mic)"
+  }
+},
+{
+  "model": "phones.phone",
+  "pk": "70604ce1-32e0-4e9a-b315-9f01f636ff59",
+  "fields": {
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip",
+    "is_available": true,
+    "date": "2020-02-11",
+    "add_datetime": "2021-01-03T18:37:34.636Z",
+    "price": 29999000,
+    "about": "گوشی موبایل «Galaxy Z Flip» در فوریه 2020 به بازار عرضه شد تا تنوع محصولات سامسونگ را هرچه بیشتر کند. این گوشی تاشو طراحی نوینی دارد که آن را به محصولی خاص تبدیل کرده است. نمایشگر این گوشی در زمان باز شدن 6.7 انیچ اندازه دارد و در زمان بسته بشدن در یک دست جا می‌شود. علاوه‌براین، یک نمایشگر کوچک هم روی بدنه گوشی جاسازی شده است تا زمان بسته شدن گوشی هم کاربر از اعلان‌ها مطلع شود. صفحه‌نمایشی با فناوری جدید Dynamic AMOLED و تراکم پیکسلی 425 پیکسل هم نشان از جزئیات بالای نمایشگر این محصول دارد. تراشه‌ی این محصول، اسنپ‌دراگون 855+ است که به‌عنوان تراشه‌ای 7 نانومتری عملکرد فوق‌العاده بهینه‌ای دارد. این تراشه که به همراه 8 گیگابایت رم عرضه می‌شود، برای انجام کارهای روزمره و باز کردن چندین برنامه به‌صورت هم‌زمان و تماشای ویدئو کاملاً مناسب است و کم نمی‌آورد. تراشه‌ی گرافیکی Adreno 640 هم برای پخش ویدئو و بازی مناسب است. در این محصول هم دوربین قاب پشتی از دو سنسور پرقدرت تشکیل شده است.",
+    "image": "phones/galaxy-z-flip-by-samsung.png",
+    "body_size": "167.3x73.6x7.2 میلی‌متر",
+    "body_weight": "183 گرم",
+    "body_structure": "بدنه‌ای از جنس فلز و شیشه (محافظ گوریلا گلس 6 روی قاب جلو و پشت + فریم فلزی)",
+    "body_colors": "مشکی, ارغوانی, طلایی, نسخه تام براون",
+    "body_other": "پشتیبانی از eSIM",
+    "display_type": "لمسی خازنی Foldable Dynamic AMOLED",
+    "display_quality": "1080x2636 پیکسل (~425 ppi تراکم)",
+    "display_colors": "16 میلیون رنگ",
+    "display_size": "6.7 اینچ",
+    "display_other": "HDR10+,\r\nCover display: 1.1\", Super AMOLED, 112 x 300 pixels",
+    "hardware_cpu": "هشت هسته ای (1x2.95 GHz Kryo 485 & 3x2.41 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+    "hardware_gpu": "Adreno 640 (700 MHz)",
+    "hardware_ram": "8 GB",
+    "hardware_battery": "Non-removable Li-Po 3300 mAh",
+    "hardware_other": "Qualcomm SM8150 Snapdragon 855+ (7 nm)",
+    "back_cam_pic_quality": "8K",
+    "back_cam_lens": "12 مگاپیکسل, f/1.8, 27mm (wide), 1/2.55\", 1.4µm, دوگانه Pixel PDAF, OIS\r\n12 مگاپیکسل, f/2.2, 12mm (ultrawide), 1.12µm",
+    "back_cam_vid_quality": "2160p@30/60fps, 1080p@60/240fps, فیلم برداری 720p با سرعت 960 فریم در ثانیه, تصویربرداری HDR10+",
+    "back_cam_fps": "30, 60, 120, 240",
+    "back_camera_other": "فلش LED, تصویربرداری HDR, پانوراما,\r\nقابلیت فوکوس با اشاره روی سوژه (Touch Focus),\r\nقابلیت تشخیص چهره (Face Detection),",
+    "front_cam_pic_quality": "4K",
+    "front_cam_lens": "10 مگاپیکسل, f/2.4, 26mm (wide), 1.22µm, PDAF",
+    "front_cam_vid_quality": "فیلم برداری 2160p با سرعت 30 فریم در ثانیه",
+    "front_cam_fps": "30",
+    "front_camera_other": "HDR,\r\nمجهز به فناوری فوکوس اتوماتیک از نوع PDAF,\r\nثبت تصاویر با پیکسل‎هایی به سایز 1.22 میکرومتر (1.22µm Pixel Size),",
+    "storage_type": "-",
+    "storage_size": "256 GB",
+    "storage_other": "",
+    "other_sim": "4G، 3G، 2G",
+    "other_sim_count": "2",
+    "other_os": "Android 10",
+    "other_ui": "One UI 2",
+    "other_sensors": "قطب‌نما (Compass) , شتاب‌سنج (Accelerometer) , مجاورت (Proximity) , فشارسنج (Barometer) , ژیروسکوپ (Gyro) , اثرانگشت روی لبه (FingerPrint|Side-Mounted)",
+    "other_specials": "بلوتوث نسخه 5.0,\r\nUSB Type C,\r\nA-GPS , GLONASS , Beidou|BDS , GALILEO,\r\nشارژ سریع 15 واتی,\r\nمجهز به شارژ سریع بی‌سیم"
+  }
+},
+{
+  "model": "phones.phone",
+  "pk": "82622bf5-795c-4c55-be78-49208074da15",
+  "fields": {
+    "brand": "Samsung",
+    "name": "Galaxy Note 20",
+    "is_available": true,
+    "date": "2020-08-05",
+    "add_datetime": "2021-01-01T19:39:21.515Z",
+    "price": 29000000,
+    "about": "گوشی موبایل سامسونگ مدل Galaxy Note20 SM-N980F/DS دو سیم کارت ظرفیت 256 گیگابایت یکی از شگفت‌انگیزترین گوشی‌های کمپانی بزرگ سامسونگ است که با رونمایی آن، همه افرادی که از طرفداران سامسونگ هستند را شگفت‌زده کرده است. این گوشی تحول بسیار بزرگی در تصویربرداری، قدرت پردازش منطقی، محاسباتی، گرافیکی و وظایف اینترنتی از قبیل بازی، سوشیال و بسیاری دیگر ایجاد کرده است. این گوشی دارای قلمی هوشمند است که کار با آن بسیار ساده و درعین‌حال شما را شگفت‌زده می‌کند.",
+    "image": "phones/note20.jpg",
+    "body_size": "161.6x75.2x8.3 میلی‌متر",
+    "body_weight": "192 گرم",
+    "body_structure": "جلو شیشه (گوریلا گلس 5), پشت پلاستیک",
+    "body_colors": "سبز, برنزی, خاکستری, قرمز, آبی",
+    "body_other": "دارای گواهینامه IP68 مقاوم در برابر گرد و غبار و آب تا عمق 1.5 متر و به مدت 30 دقیقه,\r\nکاربرد شیار دوم برای سیم‌کارت یا کارت حافظه‌ی جانبی",
+    "display_type": "لمسی خازنی Super AMOLED Plus",
+    "display_quality": "2400 × 1080 پیکسل, 393 پیکسل بر هر اینچ",
+    "display_colors": "16 میلیون رنگ",
+    "display_size": "6.67 اینچ",
+    "display_other": "نسبت تصویر 20:9,\r\nCorning Gorilla Glass 5,\r\nنرخ به‌روزرسانی تصویر 120 هرتز (در رزولوشن Full HD و کم‌تر),\r\nدارای فناوری HDR10+,\r\nAlways-on display",
+    "hardware_cpu": "هشت هسته ای (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55) - Globalهشت هسته ای (1x3.0 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585) - USA",
+    "hardware_gpu": "Mali-G77 M‍P11 - GlobalAdreno 650 - USA",
+    "hardware_ram": "6GB, 8GB",
+    "hardware_battery": "Li-Ion 4300 mAh, جدا نشدنی",
+    "hardware_other": "Exynos 990 (7 nm+) - GlobalQualcomm SM8250 Snapdragon 865+ (7 nm+) - USA",
+    "back_cam_pic_quality": "8K",
+    "back_cam_lens": "سه لنز مجزا :\r\n12 مگاپیکسل, f/1.8, 26mm (wide), 1/1.76\", 1.8Âµm, دوگانه Pixel PDAF, OIS,\r\n64 مگاپیکسل, f/2.0, 27mm (telephoto), 1/1.72\", 0.8Âµm, PDAF, OIS, 3x هایبرید zoom,\r\n12 مگاپیکسل, f/2.2, 120Ëš, 13mm (ultrawide), 1/2.55\", 1.4Âµm",
+    "back_cam_vid_quality": "8Kبا سرعت 24 فریم در ثانیه, 4K@30/60fps, 1080p@30/60/240fps, فیلم برداری 720p با سرعت 960 فریم در ثانیه, تصویربرداری HDR10+, ضبط صدا بصورت استریو, ژیروسکوپ-EIS & OIS",
+    "back_cam_fps": "24, 30, 60, 120, 240",
+    "back_camera_other": "فلش LED,\r\nauto-HDR,\r\nپانوراما",
+    "front_cam_pic_quality": "1080",
+    "front_cam_lens": "10 مگاپیکسل, f/2.2, 26mm (wide), 1/3.2\", 1.22Âµm, دوگانه Pixel PDAF",
+    "front_cam_vid_quality": "4K@30/60fps, فیلم برداری 1080p با سرعت 30 فریم در ثانیه",
+    "front_cam_fps": "30, 60",
+    "front_camera_other": "دوگانه امکان ارتباط تصویری,\r\nAuto-HDR",
+    "storage_type": "میکرو اس دی XC",
+    "storage_size": "256 GB",
+    "storage_other": "",
+    "other_sim": "2G, 3G, 4G",
+    "other_sim_count": "2",
+    "other_os": "Android 10",
+    "other_ui": "One UI 2.5",
+    "other_sensors": "اثر انگشت (زیر صفحه نمایش, ultrasonic), شتاب سنج, ژیروسکوپ, حسگر مجاورتی, قطب نما, فشارسنج",
+    "other_specials": "USB Type-C,\r\nشارژ سریع 25 واتی,\r\nUSB Power Delivery 3.0,\r\nشارژ سریع بی سیم Qi/PMA 15W,\r\nشارژ بی سیم معکوس 4.5 واتی,\r\nبلوتوث 5.0, A2DP, LE, aptX,\r\nNFC"
+  }
+},
+{
+  "model": "phones.phone",
+  "pk": "c816aa74-e070-46a1-9e33-79e8f6b6bd6d",
+  "fields": {
+    "brand": "Samsung",
+    "name": "Galaxy A51",
+    "is_available": true,
+    "date": "2020-04-08",
+    "add_datetime": "2021-01-03T17:52:00.067Z",
+    "price": 7899000,
+    "about": "گوشی موبایل Galaxy A51 با رم 6 گیگابایتی روانه بازار شده است. این محصول دارای صفحه‌نمایش سوپر آمولد است و ظاهر زیبایی دارد. سامسونگ تلاش کرده است حاشیه را در این تولید جدید خود تا حد امکان کم کند. این گوشی قاب پشتی از جنس پلاستیک دارد و قاب جلویی آن را شیشه پوشانده که البته جلوه‌ی زیبایی به گوشی داده است. این محصول سامسونگ با نسخه 10 از سیستم‌عامل اندروید روانه بازار شده است تا از هر نظر گوشی مدرن به‌حساب بیاید. صفحه‌نمایش استفاده‌شده در این گوشی 6.5 اینچ با رزولوشن FullHD+ است که با استفاده از فناوری Super AMOLED و پنل OLED تصاویر شفاف و بی‌نظیری را به نمایش می‌گذارد.",
+    "image": "phones/a51.jpg",
+    "body_size": "158.9x73.6x8.7 میلیمتر",
+    "body_weight": "187 گرم",
+    "body_structure": "قاب جلو شیشه + قاب پشت و فریم پلاستیکی",
+    "body_colors": "مشکی, سفید, صورتی",
+    "body_other": "",
+    "display_type": "لمسی خازنی Super AMOLED",
+    "display_quality": "1080x2400 پیکسل ~ 450 پیکسل",
+    "display_colors": "16 میلیون",
+    "display_size": "6.5 اینچ",
+    "display_other": "مجهز به حس‌گر اثرانگشت روی صفحه نمایش,\r\nنسبت 20:9",
+    "hardware_cpu": "هشت هسته ای (2x2.2 GHz Cortex-A77 & 6x1.8 GHz Cortex A55)",
+    "hardware_gpu": "Mali-G76 M‍P5",
+    "hardware_ram": "6 GB",
+    "hardware_battery": "Non-removable Li-Po 4500 mAh",
+    "hardware_other": "Exynos 980 (8 nm),\r\nANT+",
+    "back_cam_pic_quality": "8K",
+    "back_cam_lens": "48 مگاپیکسل, f/2.0, 26mm (wide), 1/2.0\", 0.8µm, PDAF,\r\n12 مگاپیکسل, f/2.2, 123° (ultrawide),\r\n5 مگاپیکسل, f/2.4, (macro),\r\n5 مگاپیکسل, f/2.2, (depth),\r\nقابلیت تشخیص چهره (Face Detection)",
+    "back_cam_vid_quality": "4K",
+    "back_cam_fps": "30, 60, 120",
+    "back_camera_other": "فلش LED, پانوراما, تصویربرداری HDR",
+    "front_cam_pic_quality": "4K",
+    "front_cam_lens": "32 مگاپیکسل, f/2.2, 26mm (wide), 1/2.8\", 0.8µm",
+    "front_cam_vid_quality": "4K",
+    "front_cam_fps": "30, 60",
+    "front_camera_other": "HDR,\r\nقابلیت تشخیص چهره (Face Detection)",
+    "storage_type": "میکرو اس دیXC",
+    "storage_size": "128 GB",
+    "storage_other": "",
+    "other_sim": "2G, 3G, 4G, 5G",
+    "other_sim_count": "2",
+    "other_os": "Android 10",
+    "other_ui": "One UI 2",
+    "other_sensors": "اثر انگشت (زیر صفحه نمایش, optical), شتاب سنج, ژیروسکوپ, حسگر مجاورتی, قطب نما",
+    "other_specials": "شارژ سریع 15 واتی,\r\nبلوتوث 5.0, A2DP, LE,\r\nUSB type C,"
+  }
+},
+{
+  "model": "phones.phone",
+  "pk": "cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+  "fields": {
+    "brand": "Apple",
+    "name": "iPhone 12 Pro",
+    "is_available": true,
+    "date": "2020-10-13",
+    "add_datetime": "2021-01-03T18:13:05.482Z",
+    "price": 51000000,
+    "about": "گوشی موبایل «iPhone 12 Pro» پرچم‌دار جدید شرکت اپل است که با چند ویژگی جدید و دوربین چهارگانه روانه بازار شده است. اپل برای ویژگی‌ها و طراحی کلی این گوشی از همان فرمول چند سال اخیرش استفاده کرده است. نمایشگر آیفون 12 Pro به پنل Super Retina مجهز ‌شده است تا تصاویر بسیار مطلوبی را به کاربر عرضه کند. این نمایشگر رزولوشن بسیار بالایی دارد؛ به‌طوری‌که در اندازه­‌ی 6.1 اینچی‌اش، حدود 460 پیکسل را در هر اینچ جا داده است که دقیقاً با تراکم پیکسلی iPhone XS برابر است. قاب پشتی آیفون جدید هم از شیشه ساخته‌ شده تا هم گوشی مشکل آنتن‌‌دهی نداشته باشد و هم امکان شارژ بی‌‌سیم باتری در این گوشی وجود داشته باشد. البته قابی فلزی این بدنه شیشه‌ای را در خود جای داده است. این بدنه­‌ی زیبا در مقابل خط‌‌وخش مقاومت زیادی دارد؛ پس خیالتان از این بابت که آب و گردوغبار به‌‌راحتی روی آیفون 12 Pro تأثیر نمی‌‌گذارد، راحت باشد. علاوه‌براین لکه و چربی هم روی این صفحه‌نمایش باکیفیت تأثیر چندانی ندارند اما این هم پایان کار نیست، آیفون جدید می‌تواند به مدت 30 دقیقه در عمق 4 متری آب دوام بیاورد. تشخیص چهره با استفاده از دوربین جلو دیگر ویژگی است که در آیفون جدید اپل به کار گرفته شده است. اما جالب‌ترین و واضح‌ترین تفاوت در این محصول جدید، دوربین‌هایی است که این بار به شکل چهار‌گانه در قاب پشتی جا خوش کرده‌اند.",
+    "image": "phones/iPhone12Pro.png",
+    "body_size": "146.7x71.5x7.4 میلی‌متر",
+    "body_weight": "189 گرم",
+    "body_structure": "فلز و شیشه (قاب جلو و پشت شیشه‌ای با فریمی از جنس فولاد ضدزنگ)",
+    "body_colors": "نقره‌ای, نوک مدادی, طلایی, آبی",
+    "body_other": "دارای استاندارد IP68 برای مقاومت در برابر آب (به مدت 30 دقیقه در عمق 4 متر),",
+    "display_type": "Super Retina XDR OLED, تصویربرداری HDR10, 800 nits (typ), 1200 nits (peak)",
+    "display_quality": "1170x2532 پیکسل, 19.5:9 نسبت (~460 ppi تراکم)",
+    "display_colors": "16 میلیون",
+    "display_size": "6.1 اینچ",
+    "display_other": "Scratch-resistant سرامیک glass, oleophobic coating\r\nصفحه نمایش با شیشه مقاوم در برابر خط و خش به همراه محافظ Gorilla Glass",
+    "hardware_cpu": "Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)",
+    "hardware_gpu": "Apple GPU (4-core graphics)",
+    "hardware_ram": "6 GB",
+    "hardware_battery": "Li-Ion 2815 mAh, جدا نشدنی",
+    "hardware_other": "Apple A14 Bionic (5 nm)",
+    "back_cam_pic_quality": "8K",
+    "back_cam_lens": "12 مگاپیکسل, f/1.6, 26mm (wide), 1.4Âµm, دوگانه pixel PDAF, OIS,\r\n12 مگاپیکسل, f/2.0, 52mm (telephoto), 1/3.4\", 1.0Âµm, PDAF, OIS, زوم اپتیکال 2 برابر,\r\n12 مگاپیکسل, f/2.4, 120Ëš, 13mm (ultrawide), 1/3.6\",\r\nTOF 3D LiDAR scanner (depth)",
+    "back_cam_vid_quality": "4K@24/30/60fps, 1080p@30/60/120/240fps, 10â€‘bit HDR, Dolby Vision HDR (up to 60fps), ضبط صدا بصورت استریو",
+    "back_cam_fps": "30, 60, 120, 240",
+    "back_camera_other": "دوگانه-LED دوگانه-tone فلش, تصویربرداری HDR (عکس/پانوراما),\r\nضبط صدای استریو,\r\nقابلیت تشخیص چهره و لبخند (Face and Smile Detection),\r\nقابلیت فوکوس با اشاره روی سوژه (Touch Focus)",
+    "front_cam_pic_quality": "4K",
+    "front_cam_lens": "12 مگاپیکسل, f/2.2, 23mm (wide), 1/3.6\",\r\n SL 3D, (depth/biometrics sensor)",
+    "front_cam_vid_quality": "4K@24/30/60fps, 1080p@30/60/120fps, ژیروسکوپ-EIS",
+    "front_cam_fps": "30, 60, 120",
+    "front_camera_other": "HDR,\r\nدارای دو دوربین سلفی | دوربین 12 مگاپیکسلی + دوربین SL",
+    "storage_type": "-",
+    "storage_size": "128 GB, 256 GB, 512 GB",
+    "storage_other": "NVMe",
+    "other_sim": "2G, 3G, 4G, 5G",
+    "other_sim_count": "2",
+    "other_os": "iOS 14.1",
+    "other_ui": "iOS",
+    "other_sensors": "قطب‌نما (Compass) , شتاب‌سنج (Accelerometer) , مجاورت (Proximity) , فشارسنج (Barometer) , ژیروسکوپ (Gyro) , تشخیص چهره بیومتریک (Face ID)",
+    "other_specials": "شارژ سریع 20 واتی, 50 درصد در 30 دقیقه (advertised),\r\nQi شارژ سریع بی سیم 15 واتی,\r\nUSB Power Delivery 2.0,\r\nبلوتوث 5,\r\nLightning,\r\ndual-band wifi"
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 29,
+  "fields": {
+    "user": 2,
+    "phone": "4aa2b9c2-43a1-48b6-b30c-4882eb3cf3ad",
+    "count": 2,
+    "add_datetime": "2021-01-03T12:02:56.580Z"
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 31,
+  "fields": {
+    "user": 2,
+    "phone": "0097a53d-73d5-4cb7-8bf1-99eb8c6f1bcf",
+    "count": 1,
+    "add_datetime": "2021-01-03T12:03:17.882Z"
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 36,
+  "fields": {
+    "user": 1,
+    "phone": "70604ce1-32e0-4e9a-b315-9f01f636ff59",
+    "count": 5,
+    "add_datetime": "2021-01-03T18:48:06.112Z"
+  }
+},
+{
+  "model": "basket.basket",
+  "pk": 37,
+  "fields": {
+    "user": 1,
+    "phone": "cccbebfd-6d02-45f8-b68d-2f570b2a5a93",
+    "count": 3,
+    "add_datetime": "2021-01-04T14:07:42.470Z"
+  }
+}
+]
