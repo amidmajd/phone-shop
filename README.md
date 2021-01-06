@@ -11,4 +11,4 @@
 
 ## ToDO
 
-[ ] Deploy to Heroku
+- [ ] Deploy to Heroku
