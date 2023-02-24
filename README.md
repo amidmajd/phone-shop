@@ -7,7 +7,7 @@
 ## Backend
 
 - **Django v3** (with the help of `django-templates`)
-- **PostgresSQL**
+- **PostgreSQL**
 
 ## ToDO
 
